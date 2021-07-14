@@ -164,36 +164,37 @@ export default {
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      background: rgba(255, 255, 255, 0.1);
+      background: rgba(255, 255, 255, 0.2);
       padding: 1rem;
-      border-radius: 0.2rem;
+      border-radius: 0.4rem;
       position: absolute;
-      left: 50%;
-      bottom: 1%;
+      left: 7%;
+      bottom: 7%;
       transform: translateX(-50%);
       z-index: 2;
 
       div {
         width: 1rem;
         height: 1rem;
-        border: 0.1rem solid white;
-        border-radius: 0.2rem;
+        // border: 0.1rem solid var(--clr-ylw);
+        background: white;
+        border-radius: 50%;
 
         &:nth-child(1),
         &:nth-child(2) {
-          margin-right: 0.4rem;
+          margin-right: 0.6rem;
         }
       }
 
       .active {
-        background: white;
+        background: var(--clr-ylw);
       }
     }
   }
 
   .buttons-wrapper {
     position: absolute;
-    bottom: 10%;
+    bottom: 2%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -259,6 +260,11 @@ export default {
       span {
         padding: 1rem;
         font-size: 4rem;
+      }
+
+      .bullets {
+        left: 50%;
+        bottom: 2%;
       }
     }
   }
