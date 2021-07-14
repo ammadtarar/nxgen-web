@@ -129,7 +129,7 @@ export default {
   @media screen and (max-width: 690px) {
     .actions {
       display: none;
-      position: absolute;
+      position: fixed;
       height: calc(100vh - 8rem);
       top: 8rem;
       right: -100vw;

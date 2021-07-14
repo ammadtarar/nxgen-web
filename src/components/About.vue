@@ -73,6 +73,7 @@ export default {
     font-family: "P-700", sans-serif;
     border-bottom: 0.4rem solid var(--clr-ylw);
     text-shadow: 0.1rem 0.1rem white;
+    text-transform: uppercase;
   }
 
   .top {
@@ -118,6 +119,7 @@ export default {
     display: flex;
     align-items: center;
     z-index: 2;
+    margin-top: 4rem;
 
     img {
       width: 40%;
