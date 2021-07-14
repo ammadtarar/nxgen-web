@@ -9,8 +9,10 @@
       <a id="about" href="#about">About</a>
       <a id="services" href="#services">Services</a>
       <a id="contact" href="#contact">Contact</a>
-      <a id="register" href="#register">Register</a>
+      <div class="spacer-mobile"></div>
       <a id="login" href="#login">Login</a>
+      <div class="spacer"></div>
+      <a id="register" href="#register">Register</a>
     </div>
 
     <div
@@ -57,7 +59,13 @@ export default {
 .navbar {
   width: 100%;
   height: 8rem;
-  background: rgba(255, 255, 255, 0.8);
+  // background: rgba(255, 255, 255, 0.8);
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.6)
+  );
   display: flex;
   padding: 0rem 2rem;
   box-shadow: 0.1rem 0.1rem 0.6rem 0.2rem rgba(0, 0, 0, 0.2);
@@ -94,14 +102,23 @@ export default {
     #about {
       margin-left: 5rem;
     }
-    #services,
-    #contact,
-    #login {
-      margin-left: 3rem;
+    #services {
+      margin: 0rem 4rem;
     }
 
-    #register {
+    #login {
       margin-left: auto;
+    }
+
+    .spacer {
+      width: 0.1rem;
+      height: 3rem;
+      margin: 0rem 3rem;
+      background: black;
+    }
+
+    .spacer-mobile {
+      display: none;
     }
   }
 
@@ -119,7 +136,18 @@ export default {
       transition: all 0.25s ease-in;
 
       a {
-        margin-left: 0rem !important;
+        margin: 0rem !important;
+      }
+
+      .spacer {
+        display: none;
+      }
+
+      .spacer-mobile {
+        display: block;
+        width: 10rem;
+        height: 0.1rem;
+        background: black;
       }
     }
 

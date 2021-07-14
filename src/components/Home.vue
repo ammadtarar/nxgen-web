@@ -69,19 +69,17 @@ export default {
         {
           id: 0,
           src: require("../assets/images/home_1.jpeg"),
-          title:
-            "eduacted and <br />qualified labatory <br />professionals ...",
+          title: "high quality<br />low cost<br />diagnostics</span",
         },
         {
           id: 1,
           src: require("../assets/images/home_2.jpeg"),
-          title:
-            "eduacted and <br />qualified labatory <br />professionals ...",
+          title: "eduacted and <br />qualified lab <br />professionals",
         },
         {
           id: 2,
           src: require("../assets/images/home_3.jpg"),
-          title: "high-tech ,<br />cutting edge<br />labatory equipment",
+          title: "high tech <br />cutting edge<br />lab equipment",
         },
       ],
     };
@@ -158,6 +156,7 @@ export default {
       top: 0;
       left: 0;
       font-family: "P-700", sans-serif;
+      text-align: center;
     }
 
     .bullets {
@@ -260,6 +259,14 @@ export default {
       span {
         padding: 1rem;
         font-size: 4rem;
+      }
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    .carousel {
+      span {
+        font-size: 3rem;
       }
     }
   }
