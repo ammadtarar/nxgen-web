@@ -60,6 +60,7 @@ export default {
   background: rgba(255, 255, 255, 0.8);
   display: flex;
   padding: 0rem 2rem;
+  box-shadow: 0.1rem 0.1rem 0.6rem 0.2rem rgba(0, 0, 0, 0.2);
 
   #logo {
     height: 2.6rem;
@@ -110,6 +111,7 @@ export default {
 
   @media screen and (max-width: 690px) {
     .actions {
+      display: none;
       position: absolute;
       height: calc(100vh - 8rem);
       top: 8rem;
@@ -143,7 +145,7 @@ export default {
       width: 100%;
       height: calc(100vh - 8rem);
       right: 0;
-      background: rgba(255, 255, 255, 0.8);
+      background: rgba(255, 255, 255, 1);
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
