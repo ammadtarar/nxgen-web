@@ -50,6 +50,7 @@
 }
 
 html {
+  scroll-behavior: smooth;
   font-size: 62.5%;
   font-family: "P-300", sans-serif;
 

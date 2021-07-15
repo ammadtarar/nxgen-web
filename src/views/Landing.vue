@@ -11,6 +11,7 @@
 import Home from "../components/Home.vue";
 import About from "../components/About.vue";
 import Services from "../components/Services.vue";
+
 export default {
   components: {
     home: Home,

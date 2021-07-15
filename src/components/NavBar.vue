@@ -6,13 +6,29 @@
       class="actions"
       :class="{ 'actions-mobile-opened': isMobile && menuOpened }"
     >
-      <a id="about" href="#about">About</a>
-      <a id="services" href="#services">Services</a>
-      <a id="contact" href="#contact">Contact</a>
+      <a id="bt-about" href="#about" @click="menuOpened = false">About</a>
+      <a id="bt-services" href="#services" @click="menuOpened = false"
+        >Services</a
+      >
+      <a id="bt-contact" href="#footer" @click="menuOpened = false">Contact</a>
       <div class="spacer-mobile"></div>
-      <a id="login" href="#login">Login</a>
+      <a
+        id="login"
+        @click="
+          onClick('login');
+          menuOpened = false;
+        "
+        >Login</a
+      >
       <div class="spacer"></div>
-      <a id="register" href="#register">Register</a>
+      <a
+        id="register"
+        @click="
+          onClick('register');
+          menuOpened = false;
+        "
+        >Register</a
+      >
     </div>
 
     <div
@@ -40,6 +56,10 @@ export default {
     };
   },
   methods: {
+    onClick(e) {
+      console.log("onClick = ", e);
+      this.$emit("onClickNavBt", e);
+    },
     isMobileDevice() {
       this.isMobile = screen.width <= 690;
     },
@@ -99,10 +119,10 @@ export default {
       margin-left: 2rem;
     }
 
-    #about {
+    #bt-about {
       margin-left: 5rem;
     }
-    #services {
+    #bt-services {
       margin: 0rem 4rem;
     }
 

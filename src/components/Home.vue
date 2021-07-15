@@ -2,7 +2,7 @@
   <section id="home">
     <div class="home">
       <div class="nav">
-        <navbar @onClickBurger="onClickBurger" />
+        <navbar @onClickBurger="onClickBurger" @onClickNavBt="onClickNavBt" />
       </div>
 
       <div class="carousel">
@@ -46,19 +46,37 @@
         </div>
       </div>
     </div>
+    <transition
+      enter-active-class="animate__animated animate__zoomIn"
+      leave-active-class="animate__animated animate__zoomOut"
+    >
+      <login v-if="showLogin" @onCancel="showLogin = false" />
+    </transition>
+    <transition
+      enter-active-class="animate__animated animate__zoomIn"
+      leave-active-class="animate__animated animate__zoomOut"
+    >
+      <register v-if="showRegister" @onCancel="showRegister = false" />
+    </transition>
   </section>
 </template>
 
 <script>
 import NavBar from "../components/NavBar.vue";
+import LoginPopup from "../components/LoginPopup.vue";
+import RegisterPopup from "../components/RegisterPopup.vue";
 
 export default {
   name: "Home",
   components: {
     navbar: NavBar,
+    login: LoginPopup,
+    register: RegisterPopup,
   },
   data() {
     return {
+      showLogin: false,
+      showRegister: false,
       menuOpened: false,
       image: {
         src: "",
@@ -85,6 +103,10 @@ export default {
     };
   },
   methods: {
+    onClickNavBt(e) {
+      this.showLogin = e == "login";
+      this.showRegister = e == "register";
+    },
     onClickBurger(menuOpened) {
       this.menuOpened = menuOpened;
     },
@@ -275,10 +297,6 @@ export default {
         font-size: 3rem;
       }
     }
-  }
-
-  .animate__animated.animate__fadeIn {
-    --animate-duration: 1s;
   }
 }
 </style>

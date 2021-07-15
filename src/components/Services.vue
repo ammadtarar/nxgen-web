@@ -12,7 +12,7 @@
         </div>
       </div>
     </div>
-    <div class="footer">
+    <div class="footer" id="footer">
       <div class="sec" id="logo-cont">
         <img src="../assets/logo2.png" alt="logo" id="logo" />
       </div>
