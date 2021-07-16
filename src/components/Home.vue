@@ -31,7 +31,7 @@
       </div>
 
       <div :style="{ 'z-index': menuOpened ? 0 : 2 }" class="buttons-wrapper">
-        <div class="button-wrapper">
+        <div class="button-wrapper" @click="showAppointment = true">
           <div class="button">
             <img src="../assets/icons/ic_book.png" alt="Book Appointment" />
             Book Appointment
@@ -58,6 +58,22 @@
     >
       <register v-if="showRegister" @onCancel="showRegister = false" />
     </transition>
+
+    <transition
+      enter-active-class="animate__animated animate__zoomIn"
+      leave-active-class="animate__animated animate__zoomOut"
+    >
+      <login v-if="showLogin" @onCancel="showLogin = false" />
+    </transition>
+    <transition
+      enter-active-class="animate__animated animate__zoomIn"
+      leave-active-class="animate__animated animate__zoomOut"
+    >
+      <bookAppointmentPopup
+        v-if="showAppointment"
+        @onCancel="showAppointment = false"
+      />
+    </transition>
   </section>
 </template>
 
@@ -65,6 +81,7 @@
 import NavBar from "../components/NavBar.vue";
 import LoginPopup from "../components/LoginPopup.vue";
 import RegisterPopup from "../components/RegisterPopup.vue";
+import BookAppointmentPopup from "../components/BookAppointmentPopup.vue";
 
 export default {
   name: "Home",
@@ -72,9 +89,11 @@ export default {
     navbar: NavBar,
     login: LoginPopup,
     register: RegisterPopup,
+    bookAppointmentPopup: BookAppointmentPopup,
   },
   data() {
     return {
+      showAppointment: false,
       showLogin: false,
       showRegister: false,
       menuOpened: false,

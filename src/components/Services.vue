@@ -284,8 +284,8 @@ export default {
       outline: none;
       background: white;
       border: 0.1rem solid black;
-      font-size: 1.6rem;
-      font-family: "P400", sans-serif;
+      font-size: 1.5rem;
+      font-family: "P-300", sans-serif;
       cursor: none;
       border-radius: 0.1rem;
     }

@@ -7,7 +7,24 @@
       <div class="inputs">
         <div class="input-container" v-for="item in inputs" :key="item.id">
           <label :for="item.id">{{ item.name }}</label>
+
+          <select
+            v-if="item.type == 'select'"
+            :id="item.id"
+            v-model="item.val"
+            @input="
+              (event) =>
+                $emit('update:modelValue', (item.val = event.target.value))
+            "
+          >
+            <option disabled value="">{{ item.placeholder }}</option>
+            <option v-for="e in item.options" :key="e.key" :value="e.key">
+              {{ e.value }}
+            </option>
+          </select>
+
           <input
+            v-if="item.type != 'select'"
             :name="item.name"
             :id="item.id"
             v-model="item.val"
@@ -87,6 +104,7 @@ export default {
   .card {
     width: 40rem;
     height: auto;
+    max-height: 90%;
     background: linear-gradient(rgba(255, 255, 255, 0.9), white, white, white);
     border-radius: 0.4rem;
     display: flex;
@@ -124,6 +142,19 @@ export default {
           margin-bottom: 0rem;
         }
 
+        select {
+          flex: 1;
+          max-height: 3.9rem;
+          border-radius: 0.4rem;
+          border: 0.1rem solid gray;
+          background: white;
+          padding: 0.8rem 1.2rem;
+          font-family: "P-400", sans-serif;
+          color: #495057;
+          font-size: 1.3rem;
+          outline: none;
+        }
+
         label {
           font-size: 1.2rem;
           color: gray;
@@ -134,7 +165,7 @@ export default {
         }
 
         input {
-          font-size: 1.6rem;
+          font-size: 1.4rem;
           margin-bottom: 0.4rem;
           color: black;
           outline: none;
