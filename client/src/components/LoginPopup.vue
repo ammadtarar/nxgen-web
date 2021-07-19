@@ -6,6 +6,8 @@
       :inputs="inputs"
       posActionName="Login"
       @onCancel="$emit('onCancel')"
+      @onCLickPositive="onClickLogin"
+      :processing="processing"
     />
   </div>
 </template>
@@ -19,6 +21,7 @@ export default {
   },
   data() {
     return {
+      processing: false,
       inputs: [
         {
           id: "email",
@@ -38,6 +41,20 @@ export default {
         },
       ],
     };
+  },
+  methods: {
+    onClickLogin() {
+      this.processing = true;
+      let email = this.inputs[0].val;
+      let password = this.inputs[1].val;
+      console.log(`Email = ${email} , Pasword = ${password}`);
+      // TODO - INPLEMENT LOGIN API
+
+      setTimeout(() => {
+        this.processing = false;
+        this.$router.push("/dashboard");
+      }, 3000);
+    },
   },
 };
 </script>

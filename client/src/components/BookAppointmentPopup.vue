@@ -4,6 +4,7 @@
       title="Book Appointment"
       description="Enter your details to book appointment for medical test , either for home sample pickup or on location testing"
       :inputs="inputs"
+      layout="grid"
       posActionName="Book"
       @onCancel="$emit('onCancel')"
     />

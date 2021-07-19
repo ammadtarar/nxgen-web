@@ -1,18 +1,49 @@
 <template>
   <div class="navbar">
-    <img src="../assets/logo.png" alt="logo" id="logo" />
+    <img
+      src="../assets/logo.png"
+      alt="logo"
+      id="logo"
+      @click="$router.push('/')"
+    />
 
     <div
+      v-if="!isRatesList"
       class="actions"
       :class="{ 'actions-mobile-opened': isMobile && menuOpened }"
     >
-      <a id="bt-about" href="#about" @click="menuOpened = false">About</a>
-      <a id="bt-services" href="#services" @click="menuOpened = false"
+      <a
+        v-if="!isDashboard"
+        id="bt-about"
+        href="/#about"
+        @click="menuOpened = false"
+        >About</a
+      >
+      <a
+        v-if="!isDashboard"
+        id="bt-services"
+        href="/#services"
+        @click="menuOpened = false"
         >Services</a
       >
-      <a id="bt-contact" href="#footer" @click="menuOpened = false">Contact</a>
-      <div class="spacer-mobile"></div>
+
       <a
+        v-if="!isDashboard"
+        id="bt-rates"
+        href="#rates"
+        @click="menuOpened = false"
+        >Rates & Packages</a
+      >
+      <a
+        v-if="!isDashboard"
+        id="bt-contact"
+        href="/#footer"
+        @click="menuOpened = false"
+        >Contact</a
+      >
+      <div v-if="!isDashboard" class="spacer-mobile"></div>
+      <a
+        v-if="!isDashboard"
         id="login"
         @click="
           onClick('login');
@@ -20,8 +51,9 @@
         "
         >Login</a
       >
-      <div class="spacer"></div>
+      <div v-if="!isDashboard" class="spacer"></div>
       <a
+        v-if="!isDashboard"
         id="register"
         @click="
           onClick('register');
@@ -29,9 +61,21 @@
         "
         >Register</a
       >
+
+      <a
+        v-if="isDashboard"
+        id="login"
+        class="logout"
+        @click="
+          onClick('logout');
+          menuOpened = false;
+        "
+        >Logout</a
+      >
     </div>
 
     <div
+      v-if="!isRatesList"
       class="burger"
       :class="{ 'burger-mobile-open': isMobile && menuOpened }"
       @click="
@@ -53,11 +97,15 @@ export default {
     return {
       isMobile: false,
       menuOpened: true,
+      isDashboard: false,
+      isRatesList: false,
     };
   },
   methods: {
     onClick(e) {
-      console.log("onClick = ", e);
+      if (e === "logout") {
+        this.$router.push("/");
+      }
       this.$emit("onClickNavBt", e);
     },
     isMobileDevice() {
@@ -71,6 +119,8 @@ export default {
     this.isMobileDevice();
     this.menuOpened = !this.isMobile;
     window.addEventListener("resize", this.windowResized);
+    this.isDashboard = this.$parent.$options.name === "Dashboard";
+    this.isRatesList = this.$parent.$options.name === "RatesPackages";
   },
 };
 </script>
@@ -126,10 +176,21 @@ export default {
       margin: 0rem 4rem;
     }
 
+    #bt-rates {
+      margin: 0;
+      margin-right: 4rem;
+    }
+
     #login {
       margin-left: auto;
     }
 
+    .logout {
+      color: #f44336;
+      &:hover {
+        color: #ff5252;
+      }
+    }
     .spacer {
       width: 0.1rem;
       height: 3rem;

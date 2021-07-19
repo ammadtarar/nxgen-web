@@ -56,5 +56,36 @@ html {
 
   --clr-ylw: rgb(240, 161, 74);
   --clr-ylw-trans: rgba(240, 161, 74, 0.5);
+
+  ::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar space */
+    background: transparent; /* Optional: just make scrollbar invisible */
+  }
+  /* Optional: show position indicator in red */
+  ::-webkit-scrollbar-thumb {
+    background: transparent;
+  }
+
+  select {
+    flex: 1;
+    max-height: 3.9rem;
+    border-radius: 0.4rem;
+    border: 0.1rem solid gray;
+    background: white;
+    padding: 0.8rem 1.2rem;
+    font-family: "P-400", sans-serif;
+    color: #495057;
+    font-size: 1.3rem;
+    outline: none;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: transparent;
 }
 </style>

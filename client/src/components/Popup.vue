@@ -1,10 +1,21 @@
 <template>
   <div class="popup">
-    <div class="card">
+    <div
+      class="card"
+      :class="{
+        'card-big': processedLayout === 'grid',
+      }"
+    >
       <h1>{{ title }}</h1>
       <p>{{ description }}</p>
 
-      <div class="inputs">
+      <div
+        class="inputs"
+        :class="{
+          list: processedLayout === 'list',
+          grid: processedLayout === 'grid',
+        }"
+      >
         <div class="input-container" v-for="item in inputs" :key="item.id">
           <label :for="item.id">{{ item.name }}</label>
 
@@ -24,6 +35,7 @@
           </select>
 
           <input
+            :disabled="processing"
             v-if="item.type != 'select'"
             :name="item.name"
             :id="item.id"
@@ -40,6 +52,8 @@
       <div class="actions">
         <button @click="$emit('onCancel')" class="neg">Cancel</button>
         <button
+          v-if="!processing"
+          @click="$emit('onCLickPositive')"
           class="pos"
           :class="{
             disabled: !enablePositiveButton,
@@ -48,6 +62,9 @@
         >
           {{ posActionName }}
         </button>
+        <div v-else class="processing">
+          <div></div>
+        </div>
       </div>
     </div>
   </div>
@@ -61,10 +78,16 @@ export default {
     description: String,
     inputs: Array,
     posActionName: String,
+    layout: {
+      type: String,
+      default: "list",
+    },
+    processing: Boolean,
   },
   data() {
     return {
       enablePositiveButton: false,
+      processedLayout: "list",
     };
   },
   methods: {
@@ -85,6 +108,13 @@ export default {
       });
     },
   },
+  mounted() {
+    if (screen.width <= 450) {
+      this.processedLayout = "list";
+    } else {
+      this.processedLayout = this.layout;
+    }
+  },
 };
 </script>
 
@@ -101,6 +131,9 @@ export default {
   justify-content: center;
   align-items: center;
 
+  .card-big {
+    width: 60vw !important;
+  }
   .card {
     width: 40rem;
     height: auto;
@@ -126,10 +159,18 @@ export default {
       margin-bottom: 3rem;
     }
 
-    .inputs {
+    .list {
       display: flex;
-      width: 100%;
       flex-direction: column;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+    .inputs {
+      width: 100%;
       overflow-y: scroll;
       height: auto;
 
@@ -140,19 +181,6 @@ export default {
 
         &:last-child {
           margin-bottom: 0rem;
-        }
-
-        select {
-          flex: 1;
-          max-height: 3.9rem;
-          border-radius: 0.4rem;
-          border: 0.1rem solid gray;
-          background: white;
-          padding: 0.8rem 1.2rem;
-          font-family: "P-400", sans-serif;
-          color: #495057;
-          font-size: 1.3rem;
-          outline: none;
         }
 
         label {
@@ -222,6 +250,30 @@ export default {
         color: white;
       }
 
+      .processing {
+        width: 50%;
+        height: 100%;
+        background: var(--clr-ylw);
+        margin-top: 3rem;
+        border-radius: 0.4rem;
+        display: flex;
+        opacity: 0.7;
+        cursor: not-allowed;
+
+        div {
+          width: 2.5rem;
+          height: 2.5rem;
+          border-top: 0.3em solid white;
+          border-right: 0.3rem solid white;
+          border-bottom: 0.3rem solid white;
+          border-left: 0.3rem solid transparent;
+          margin: auto;
+          border-radius: 50%;
+          overflow: hidden;
+          animation: rotating 1s linear infinite;
+        }
+      }
+
       .disabled {
         cursor: not-allowed;
         opacity: 0.5;
@@ -234,10 +286,23 @@ export default {
     }
   }
 
+  @media screen and (max-width: 840px) {
+    .card-big {
+      width: 80% !important;
+    }
+  }
+
+  @media screen and (max-width: 610px) {
+    .card-big {
+      width: 95% !important;
+    }
+  }
+
   @media screen and (max-width: 500px) {
     .card {
       width: 100%;
       height: 100%;
+      max-height: 100% !important;
 
       .inputs {
       }
@@ -281,6 +346,23 @@ export default {
         box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.2);
       }
     }
+  }
+}
+
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 </style>

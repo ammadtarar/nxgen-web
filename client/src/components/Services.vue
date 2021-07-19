@@ -11,6 +11,11 @@
           </div>
         </div>
       </div>
+
+      <span class="learn-more" id="rates"
+        >To learn more about our rates and special health pacakages
+        <a @click="$router.push('/rs')">Click Here</a></span
+      >
     </div>
     <div class="footer" id="footer">
       <div class="sec" id="logo-cont">
@@ -117,6 +122,29 @@ export default {
     text-shadow: 0.1rem 0.1rem white;
     margin: 6rem auto;
     text-transform: uppercase;
+  }
+
+  .learn-more {
+    margin: 0;
+    font-size: 1.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    color: black;
+    padding: 2rem;
+    text-align: center;
+
+    a {
+      font-family: "P-600", sans-serif;
+      color: var(--clr-ylw);
+      transition: 0.25s all ease-in;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.2);
+        font-size: 1.8rem;
+      }
+    }
   }
 
   .scroller {
