@@ -27,16 +27,24 @@
           <tr class="head">
             <th></th>
             <th>Lab Test Name</th>
+            <th>Sample</th>
+            <th>Reporting Time</th>
             <th>Rate</th>
           </tr>
         </thead>
         <tbody>
-          <tr v-bind:key="item.index" v-for="item in reports">
+          <tr v-bind:key="index + 1" v-for="(item, index) in reports">
             <td class="index">
-              {{ item.index || "--" }}
+              {{ index + 1 || "--" }}
             </td>
             <td>
               {{ item.name || "--" }}
+            </td>
+            <td>
+              {{ item.sample || "--" }}
+            </td>
+            <td style="text-transform: capitalize">
+              {{ item.time.toLowerCase() || "--" }}
             </td>
             <td>Rs. {{ item.price || "--" }}</td>
           </tr>
@@ -90,7 +98,7 @@ export default {
   justify-content: space-between;
 
   .table-wrapper {
-    width: 70%;
+    width: 75%;
     overflow-y: scroll;
     height: 88vh;
     table {
@@ -140,7 +148,7 @@ export default {
   }
 
   .wrapper {
-    width: 30%;
+    width: 25%;
 
     .search-box {
       width: 100%;

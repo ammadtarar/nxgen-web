@@ -126,6 +126,7 @@ export default {
       box-shadow: 0.1rem 0.1rem 0.4rem 0.4rem rgba(0, 0, 0, 0.1);
       border-radius: 0.4rem;
       border: 1rem solid white;
+      transition: 0.25s all ease-in-out;
     }
 
     ul {

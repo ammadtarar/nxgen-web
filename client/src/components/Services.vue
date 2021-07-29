@@ -12,10 +12,10 @@
         </div>
       </div>
 
-      <span class="learn-more" id="rates"
+      <!-- <span class="learn-more" id="rates"
         >To learn more about our rates and special health pacakages
         <a @click="$router.push('/rs')">Click Here</a></span
-      >
+      > -->
     </div>
     <div class="footer" id="footer">
       <div class="sec" id="logo-cont">
@@ -176,6 +176,14 @@ export default {
 
         &:hover {
           transform: scale(1.1);
+
+          img {
+            transform: scale(1.2);
+          }
+
+          h1 {
+            transform: translateY(1rem);
+          }
         }
 
         &:last-child {
@@ -193,6 +201,7 @@ export default {
           height: 40%;
           object-fit: cover;
           object-position: center;
+          transition: 0.5s all ease-in-out;
         }
 
         h1 {
@@ -201,6 +210,7 @@ export default {
           margin: 2rem 0rem;
           color: black;
           padding: 0rem 2rem;
+          transition: 0.25s all ease-in-out;
         }
         span {
           width: 100%;

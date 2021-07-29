@@ -30,8 +30,10 @@
       <a
         v-if="!isDashboard"
         id="bt-rates"
-        href="#rates"
-        @click="menuOpened = false"
+        @click="
+          onClick('packages');
+          menuOpened = false;
+        "
         >Rates & Packages</a
       >
       <a
@@ -105,6 +107,8 @@ export default {
     onClick(e) {
       if (e === "logout") {
         this.$router.push("/");
+      } else if ("packages") {
+        this.$router.push("/rs");
       }
       this.$emit("onClickNavBt", e);
     },

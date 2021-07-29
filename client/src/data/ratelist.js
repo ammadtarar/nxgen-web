@@ -1,2727 +1,3194 @@
 module.exports = [
     {
-        "index": "1",
-        "name": "17-KETOSTEROIDS (24 HRS URINE)",
-        "price": "0"
-    },
-    {
-        "index": "2",
         "name": "17-OH Progesterone",
-        "price": "2400"
+        "price": 3450,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "3",
         "name": "25-OH VITAMIN - D3",
-        "price": "2000"
+        "price": 3100,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "4",
         "name": "A.C.E",
-        "price": "2373"
+        "price": 3450,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "5",
         "name": "A.P.T.T",
-        "price": "520"
+        "price": 750,
+        "sample": "Sodium Citrate Tube (PT Vial)",
+        "time": "SAME DAY"
     },
     {
-        "index": "6",
         "name": "A/G RATIO",
-        "price": "500"
+        "price": 750,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "7",
         "name": "Abdominal Fluid  For C/E",
-        "price": "1200"
+        "price": 1700,
+        "sample": "Abdominal Fluid",
+        "time": "SAME DAY"
     },
     {
-        "index": "8",
         "name": "Abdominal Fluid  For Cytology",
-        "price": "400"
+        "price": 570,
+        "sample": "Abdominal Fluid",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "9",
         "name": "Abdominal Fluid For  AFB STAIN / ZN STAIN",
-        "price": "300"
+        "price": 170,
+        "sample": "Abdominal Fluid",
+        "time": "SAME DAY"
     },
     {
-        "index": "10",
         "name": "Abdominal Fluid For  C/S",
-        "price": "1300"
+        "price": 3750,
+        "sample": "Abdominal Fluid",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "11",
         "name": "Abdominal Fluid For GRAM STAIN",
-        "price": "300"
+        "price": 420,
+        "sample": "Abdominal Fluid",
+        "time": "SAME DAY"
     },
     {
-        "index": "12",
         "name": "ABSOLUTE EOSINOPHIL COUNT",
-        "price": "150"
+        "price": 200,
+        "sample": "3cc EDTA BLOOD (CBC VIAL)",
+        "time": "SAME DAY"
     },
     {
-        "index": "13",
         "name": "ABSOLUTE NEUTROPHIL COUNT",
-        "price": "200"
+        "price": 200,
+        "sample": "3cc EDTA BLOOD (CBC VIAL)",
+        "time": "SAME DAY"
     },
     {
-        "index": "14",
         "name": "ACID PHOSPHATE",
-        "price": "0"
+        "price": 570,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "15",
         "name": "ACTH",
-        "price": "2150"
+        "price": 3100,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "16",
         "name": "AFB Stain (Sputum)",
-        "price": "300"
+        "price": 420,
+        "sample": "SPUTUM",
+        "time": "SAME DAY"
     },
     {
-        "index": "17",
         "name": "ALBUMIN (24 HRS URINE)",
-        "price": "650"
+        "price": 950,
+        "sample": "24 Hrs Urine",
+        "time": "SAME DAY"
     },
     {
-        "index": "18",
         "name": "ALBUMIN (FLUID)",
-        "price": "300"
+        "price": 470,
+        "sample": "Fluid",
+        "time": "SAME DAY"
     },
     {
-        "index": "19",
         "name": "ALBUMIN (SERUM)",
-        "price": "300"
+        "price": 470,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "20",
         "name": "ALBUMIN (SPOT URINE)",
-        "price": "325"
+        "price": 470,
+        "sample": "Urine (Random/Spot)",
+        "time": "SAME DAY"
     },
     {
-        "index": "21",
         "name": "ALBUMIN / CREATININE RATIO.",
-        "price": "650"
+        "price": 950,
+        "sample": "Urine (Random/Spot)",
+        "time": "SAME DAY"
     },
     {
-        "index": "22",
         "name": "ALDOLASE(SERUM)",
-        "price": "1100"
+        "price": 1500,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "23",
         "name": "ALDOSTERONE",
-        "price": "2400"
+        "price": 3450,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "24",
         "name": "ALKALINE PHOSPHATASE",
-        "price": "300"
+        "price": 470,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "25",
         "name": "ALPHA FETOPROTEIN",
-        "price": "1550"
+        "price": 2250,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "26",
         "name": "Alpha-1 Antitrypsin",
-        "price": "1350"
+        "price": 1950,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "27",
         "name": "AMMONIA",
-        "price": "950"
+        "price": 1350,
+        "sample": "Plasma of Edta vial Separate within 30 min",
+        "time": "SAME DAY"
     },
     {
-        "index": "28",
         "name": "AMPHETAMINES(URINE)",
-        "price": "1100"
+        "price": 1500,
+        "sample": "spot Urine",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "29",
         "name": "AMYLASE (24Hrs Urine)",
-        "price": "700"
+        "price": 1040,
+        "sample": "24 Hrs Urine",
+        "time": "SAME DAY"
     },
     {
-        "index": "30",
         "name": "AMYLASE (FLUID)",
-        "price": "700"
+        "price": 1040,
+        "sample": "Fluid",
+        "time": "SAME DAY"
     },
     {
-        "index": "31",
         "name": "AMYLASE (SERUM)",
-        "price": "700"
+        "price": 1040,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "32",
         "name": "AMYLASE (Spot Urine)",
-        "price": "700"
+        "price": 1040,
+        "sample": "Urine (Random/Spot)",
+        "time": "SAME DAY"
     },
     {
-        "index": "33",
         "name": "ANA",
-        "price": "2300"
+        "price": 3300,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "34",
         "name": "ANA BY ELISA",
-        "price": "2275"
+        "price": 3300,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "35",
         "name": "ANA PROFILE",
-        "price": "3000"
+        "price": 4250,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "36",
         "name": "ANCA  -  C",
-        "price": "2400"
+        "price": 3450,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "37",
         "name": "ANCA  -  P",
-        "price": "2400"
+        "price": 3450,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "38",
-        "name": "ANF (Atrial Natriuretic Factor)  by ELISA",
-        "price": "0"
-    },
-    {
-        "index": "39",
         "name": "ANTI CARDIOLIPIN IgG",
-        "price": "2400"
+        "price": 3450,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "40",
         "name": "ANTI CARDIOLIPIN IgM",
-        "price": "2400"
+        "price": 3450,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "41",
         "name": "ANTI CCP",
-        "price": "2150"
+        "price": 3100,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "42",
         "name": "ANTI ds DNA",
-        "price": "3250"
+        "price": 4750,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "43",
-        "name": "Anti Endomysial Antibodies",
-        "price": "1350"
-    },
-    {
-        "index": "44",
         "name": "Anti Endomysial IgA",
-        "price": "1350"
+        "price": 1950,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "45",
         "name": "Anti Endomysial IgG",
-        "price": "1350"
+        "price": 1950,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "46",
         "name": "Anti GBM (Glomerular Basement Membrane)",
-        "price": "2400"
+        "price": 3450,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "47",
         "name": "ANTI GLIADIN IgA",
-        "price": "1550"
+        "price": 2250,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "48",
         "name": "ANTI GLIADIN IgM",
-        "price": "1550"
+        "price": 2250,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "49",
         "name": "Anti H Pylori Elisa (IgA)",
-        "price": "1400"
+        "price": 1990,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "50",
         "name": "Anti H Pylori Elisa (IgG)",
-        "price": "1400"
+        "price": 1990,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "51",
         "name": "Anti H Pylori(Screening)",
-        "price": "0"
+        "price": 5200,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "52",
         "name": "ANTI HBc IgG",
-        "price": "1300"
+        "price": 1850,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "53",
         "name": "ANTI HBc IgM",
-        "price": "1400"
+        "price": 2000,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "54",
         "name": "ANTI HBe (ELISA)",
-        "price": "1400"
+        "price": 2000,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "55",
         "name": "ANTI HBs (ELISA)",
-        "price": "1100"
+        "price": 1600,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "56",
         "name": "ANTI HCV (ELISA)",
-        "price": "1450"
+        "price": 2050,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "57",
         "name": "Anti HCV (Screening)",
-        "price": "300"
+        "price": 470,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "58",
         "name": "Anti HDV (ELISA)",
-        "price": "1100"
+        "price": 1500,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "59",
         "name": "Anti Helicobacter Pylori IgM",
-        "price": "800"
+        "price": 1150,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "60",
         "name": "ANTI HEV IgG (ELISA)",
-        "price": "1800"
+        "price": 2550,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "61",
         "name": "ANTI HEV IgM (ELISA)",
-        "price": "1800"
+        "price": 2550,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "62",
         "name": "ANTI HIV - 1&2",
-        "price": "1600"
+        "price": 2350,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "63",
         "name": "ANTI HIV (SCREENING)",
-        "price": "0"
+        "price": 2350,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "64",
-        "name": "Anti Kidney Liver Microsomal Antibodies(KLM)",
-        "price": "0"
-    },
-    {
-        "index": "65",
-        "name": "Anti Microsomal Ab",
-        "price": "0"
-    },
-    {
-        "index": "66",
         "name": "ANTI MITOCHONDRIAL ANTIBODY (AMA)",
-        "price": "3000"
+        "price": 4250,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "67",
         "name": "Anti Mullerian Hormone",
-        "price": "3510"
+        "price": 5130,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "68",
         "name": "ANTI PHOSPHOLIPID IgG",
-        "price": "1700"
+        "price": 2520,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "69",
         "name": "ANTI PHOSPHOLIPID IgM",
-        "price": "1700"
+        "price": 2520,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "70",
         "name": "ANTI SCL-70",
-        "price": "1700"
+        "price": 2520,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "71",
         "name": "ANTI SMOOTH MUSCLE Abs (ASMA)",
-        "price": "3000"
+        "price": 4250,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "72",
         "name": "Anti Sperm Antibodies",
-        "price": "2150"
+        "price": 3130,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "73",
         "name": "Anti Thrombin III",
-        "price": "3500"
+        "price": 5050,
+        "sample": "Sodium Citrate Tube (PT Vial)",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "74",
         "name": "Anti Thyroglobulin Antibody (ATG)",
-        "price": "650"
+        "price": 950,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "75",
         "name": "Anti Tissue Transglutaminase IgA",
-        "price": "1300"
+        "price": 1900,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "76",
         "name": "Anti Tissue Transglutaminase IgG",
-        "price": "1300"
+        "price": 1900,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "77",
-        "name": "Antibody Test for Hydatid Cyst",
-        "price": "0"
-    },
-    {
-        "index": "78",
         "name": "Ascitic Fluid  C/E",
-        "price": "1200"
+        "price": 1700,
+        "sample": "Ascitic Fluid",
+        "time": "SAME DAY"
     },
     {
-        "index": "79",
         "name": "Ascitic Fluid  For Cytology",
-        "price": "110"
+        "price": 1520,
+        "sample": "Ascitic Fluid",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "80",
         "name": "Ascitic Fluid For  C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "Ascitic Fluid",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "81",
         "name": "Ascitic Fluid For AFB Stain / ZN Stain",
-        "price": "300"
+        "price": 430,
+        "sample": "Ascitic Fluid",
+        "time": "SAME DAY"
     },
     {
-        "index": "82",
         "name": "Ascitic Fluid For Gram Stain",
-        "price": "300"
+        "price": 430,
+        "sample": "Ascitic Fluid",
+        "time": "SAME DAY"
     },
     {
-        "index": "83",
         "name": "ASO TITRE",
-        "price": "650"
+        "price": 950,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "84",
         "name": "Aspirate For C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "Aspirate",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "85",
         "name": "BARBITURATES (URINE)",
-        "price": "2200"
+        "price": 1520,
+        "sample": "spot Urine",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "86",
         "name": "BENCE JONES PROTEIN (URINE)",
-        "price": "400"
+        "price": 570,
+        "sample": "Urine (Random/Spot)",
+        "time": "SAME DAY"
     },
     {
-        "index": "87",
         "name": "BENZODIAZEPINES (URINE)",
-        "price": "1100"
+        "price": 1520,
+        "sample": "spot Urine",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "88",
         "name": "BETA   HCG",
-        "price": "1100"
+        "price": 1620,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "89",
         "name": "Beta-2 Microglobulin",
-        "price": "2150"
+        "price": 3130,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "90",
         "name": "BICARBONATE",
-        "price": "300"
+        "price": 380,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "91",
         "name": "Bile Pigment",
-        "price": "250"
+        "price": 335,
+        "sample": "Urine (Random/Spot)",
+        "time": "SAME DAY"
     },
     {
-        "index": "92",
         "name": "Bile Salt",
-        "price": "250"
+        "price": 335,
+        "sample": "Urine (Random/Spot)",
+        "time": "SAME DAY"
     },
     {
-        "index": "93",
         "name": "BILIRUBIN DIRECT",
-        "price": "300"
+        "price": 430,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "94",
         "name": "BILIRUBIN INDIRECT",
-        "price": "300"
+        "price": 430,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "95",
         "name": "BILIRUBIN TOTAL",
-        "price": "300"
+        "price": 430,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "96",
         "name": "Biopsy (Extra Large)",
-        "price": "4000"
+        "price": 5750,
+        "sample": "Biopsy Tissue with History",
+        "time": "AFTER ONE WEEK"
     },
     {
-        "index": "97",
         "name": "Biopsy (Large)",
-        "price": "3300"
+        "price": 4750,
+        "sample": "Biopsy Tissue with History",
+        "time": "AFTER ONE WEEK"
     },
     {
-        "index": "98",
         "name": "Biopsy (Medium)",
-        "price": "4300"
+        "price": 6250,
+        "sample": "Biopsy Tissue with History",
+        "time": "AFTER ONE WEEK"
     },
     {
-        "index": "99",
         "name": "Biopsy (Small)",
-        "price": "2900"
+        "price": 4150,
+        "sample": "Biopsy Tissue with History",
+        "time": "AFTER ONE WEEK"
     },
     {
-        "index": "100",
         "name": "BLEEDING TIME",
-        "price": "300"
+        "price": 430,
+        "sample": "CONTACT LAB",
+        "time": "SAME DAY"
     },
     {
-        "index": "101",
         "name": "Block(s) for Patient",
-        "price": "300"
+        "price": 470,
+        "sample": "BLOCK AND SLIDES",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "102",
         "name": "Block(s) for Review",
-        "price": "7150"
+        "price": 10450,
+        "sample": "SLIDES & BLOCKS",
+        "time": "AFTER ONE WEEK"
     },
     {
-        "index": "103",
         "name": "BLOOD C/E (Dengue)",
-        "price": "90"
+        "price": 85,
+        "sample": "3cc EDTA BLOOD (CBC VIAL)",
+        "time": "SAME DAY"
     },
     {
-        "index": "104",
         "name": "BLOOD C/E (ROUTINE)",
-        "price": "450"
+        "price": 650,
+        "sample": "3cc EDTA BLOOD (CBC VIAL)",
+        "time": "SAME DAY"
     },
     {
-        "index": "105",
         "name": "BLOOD CROSS MATCH WITH SCREENING",
-        "price": "4200"
+        "price": 6150,
+        "sample": "EDTA AND SERUM",
+        "time": "SAME DAY"
     },
     {
-        "index": "106",
         "name": "BLOOD FOR C/S",
-        "price": "1300"
+        "price": 1900,
+        "sample": "BLOOD (IN BLOOD CULTURE VAIL)",
+        "time": "AFTER ONE WEEK"
     },
     {
-        "index": "107",
         "name": "BLOOD FOR C/S (Left & Right)",
-        "price": "2600"
+        "price": 3800,
+        "sample": "BLOOD (IN BLOOD CULTURE VAIL)",
+        "time": "AFTER ONE WEEK"
     },
     {
-        "index": "108",
         "name": "BLOOD FOR MICRO FLARIA",
-        "price": "300"
+        "price": 470,
+        "sample": "3cc EDTA BLOOD (CBC VIAL)",
+        "time": "AFTER FOUR DAYS"
     },
     {
-        "index": "109",
         "name": "BLOOD GROUP & Rh FACTOR",
-        "price": "450"
+        "price": 620,
+        "sample": "3cc EDTA BLOOD (CBC VIAL)",
+        "time": "SAME DAY"
     },
     {
-        "index": "110",
         "name": "BLOOD SUGAR FASTING",
-        "price": "200"
+        "price": 280,
+        "sample": "Separate Plasma of Fluoride Vial",
+        "time": "SAME DAY"
     },
     {
-        "index": "111",
         "name": "Body Fluid For  AFB STAIN / ZN STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "BODY FLUID",
+        "time": "SAME DAY"
     },
     {
-        "index": "112",
         "name": "Body Fluid For  C/S",
-        "price": "2600"
+        "price": 3750,
+        "sample": "BODY FLUID",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "113",
         "name": "Body Fluid For Analysis",
-        "price": "1200"
+        "price": 1700,
+        "sample": "BODY FLUID",
+        "time": "SAME DAY"
     },
     {
-        "index": "114",
         "name": "Body Fluid For Cytology",
-        "price": "1100"
+        "price": 1520,
+        "sample": "BODY FLUID",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "115",
         "name": "Body Fluid For GRAM STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "BODY FLUID",
+        "time": "SAME DAY"
     },
     {
-        "index": "116",
         "name": "BONE FOR C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "BONE",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "117",
         "name": "Bone for Mycobacterium",
-        "price": "2600"
+        "price": 3750,
+        "sample": "BODY FLUID",
+        "time": "AFTER 10 WEEKS"
     },
     {
-        "index": "118",
         "name": "BONE MARROW (Slides For Review)",
-        "price": "7150"
+        "price": 10450,
+        "sample": "SLIDES",
+        "time": "AFTER FOUR DAYS"
     },
     {
-        "index": "119",
         "name": "Bone Marrow Biopsy (Procedure & Reporting)",
-        "price": "4700"
+        "price": 6750,
+        "sample": "CONTACT LAB",
+        "time": "ON CALL"
     },
     {
-        "index": "120",
         "name": "Breast Cancer Receptors (ER, PR, HER2)",
-        "price": "3250"
+        "price": 4750,
+        "sample": "Block and Slides,Report and History",
+        "time": "AFTER 9 DAYS"
     },
     {
-        "index": "121",
         "name": "Bronchial Washing Fluid For GRAM STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "BRONCHIAL WASHING",
+        "time": "SAME DAY"
     },
     {
-        "index": "122",
         "name": "Bronchial Washing For  Analysis",
-        "price": "1100"
+        "price": 1570,
+        "sample": "BRONCHIAL WASHING",
+        "time": "SAME DAY"
     },
     {
-        "index": "123",
         "name": "BRONCHIAL WASHING FOR AFB C/S",
-        "price": "2600"
+        "price": 3750,
+        "sample": "BRONCHIAL WASHING",
+        "time": "AFTER 10 WEEKS"
     },
     {
-        "index": "124",
         "name": "Bronchial Washing For C/S",
-        "price": "1250"
+        "price": 1800,
+        "sample": "BRONCHIAL WASHING",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "125",
         "name": "Bronchial Washing For Cytology.",
-        "price": "1100"
+        "price": 1520,
+        "sample": "BRONCHIAL WASHING",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "126",
         "name": "Bronchial Wasing For  AFB STAIN / ZN STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "BRONCHIAL WASHING",
+        "time": "SAME DAY"
     },
     {
-        "index": "127",
         "name": "BRUCELLA TEST",
-        "price": "650"
+        "price": 950,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "128",
         "name": "BUN",
-        "price": "422.5"
+        "price": 620,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "129",
         "name": "BUN / CREATININE RATIO",
-        "price": "850"
+        "price": 1200,
+        "sample": "spot Urine",
+        "time": "SAME DAY"
     },
     {
-        "index": "130",
         "name": "C  PEPTIDE LEVEL",
-        "price": "1850"
+        "price": 2700,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "131",
         "name": "C E A",
-        "price": "1700"
+        "price": 2450,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "132",
         "name": "C.P.K",
-        "price": "450"
+        "price": 620,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "133",
         "name": "C3",
-        "price": "950"
+        "price": 1370,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "134",
         "name": "C4",
-        "price": "950"
+        "price": 1370,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "135",
         "name": "CA 125",
-        "price": "2400"
+        "price": 3450,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "136",
         "name": "CA 15-3",
-        "price": "1800"
+        "price": 2550,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "137",
         "name": "CA 19-9",
-        "price": "2400"
+        "price": 3450,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "138",
         "name": "CALCIUM (24 HRS URINE)",
-        "price": "450"
+        "price": 620,
+        "sample": "24 Hrs Urine",
+        "time": "SAME DAY"
     },
     {
-        "index": "139",
         "name": "CALCIUM (SERUM)",
-        "price": "450"
+        "price": 620,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "140",
         "name": "CALCIUM (SPOT URINE)",
-        "price": "450"
+        "price": 620,
+        "sample": "spot Urine",
+        "time": "SAME DAY"
     },
     {
-        "index": "141",
         "name": "Calcium/Creatinine Ratio",
-        "price": "700"
+        "price": 1050,
+        "sample": "Urine (Random/Spot)",
+        "time": "SAME DAY"
     },
     {
-        "index": "142",
         "name": "CANNABINOIDS(Urine)",
-        "price": "1100"
+        "price": 1520,
+        "sample": "spot Urine",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "143",
         "name": "CARBAMAZEPINE(TEGRETOL)",
-        "price": "950"
+        "price": 1370,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "144",
         "name": "CARDIAC  ENZYMES",
-        "price": "1100"
+        "price": 1520,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "145",
         "name": "Catecholamines (24 Hrs Urine)",
-        "price": "5850"
+        "price": 8550,
+        "sample": "24 Hrs Urine",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "146",
         "name": "Catheter TIP For C/S",
-        "price": "1100"
+        "price": 1550,
+        "sample": "Catheter tip",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "147",
         "name": "Catheter TiP/Folley`s TiP FOR C/S",
-        "price": "1400"
+        "price": 2050,
+        "sample": "Catheter TiP/Folley\"s TiP",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "148",
         "name": "CERULOPLASMIN",
-        "price": "1150"
+        "price": 1650,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "149",
         "name": "CHLORIDE(SERUM)",
-        "price": "260"
+        "price": 380,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "150",
         "name": "CHOLESTEROL",
-        "price": "400"
+        "price": 570,
+        "sample": "(Fasting) 3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "151",
         "name": "CK MB",
-        "price": "950"
+        "price": 1370,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "152",
         "name": "CLOTTING TIME",
-        "price": "250"
+        "price": 380,
+        "sample": "CONTACT LAB",
+        "time": "SAME DAY"
     },
     {
-        "index": "153",
         "name": "CMV IgG",
-        "price": "1200"
+        "price": 1650,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "154",
         "name": "CMV IgM",
-        "price": "1200"
+        "price": 1650,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "155",
         "name": "COCAINE(Urine)",
-        "price": "1100"
+        "price": 1520,
+        "sample": "spot Urine",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "156",
         "name": "COLD AGGLUTINATION TEST",
-        "price": "4300"
+        "price": 6250,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "157",
-        "name": "Compatibility Test",
-        "price": "0"
-    },
-    {
-        "index": "158",
         "name": "COOMBs TEST (DIRECT)",
-        "price": "700"
+        "price": 1050,
+        "sample": "3cc EDTA BLOOD (CBC VIAL)",
+        "time": "SAME DAY"
     },
     {
-        "index": "159",
         "name": "COOMBs TEST (INDIRECT)",
-        "price": "650"
+        "price": 950,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "160",
         "name": "COPPER (24 HRS URINE)",
-        "price": "1200"
+        "price": 1700,
+        "sample": "24 Hrs Urine",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "161",
         "name": "COPPER (SERUM)",
-        "price": "1200"
+        "price": 1700,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "162",
         "name": "CORTISOL (24 Hrs URINE)",
-        "price": "1600"
+        "price": 2250,
+        "sample": "24 Hrs Urine",
+        "time": "SAME DAY"
     },
     {
-        "index": "163",
         "name": "CORTISOL (A.M)",
-        "price": "950"
+        "price": 1350,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "164",
         "name": "CORTISOL (P.M)",
-        "price": "950"
+        "price": 1350,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "165",
         "name": "CREATININE (24 HRS URINE)",
-        "price": "450"
+        "price": 620,
+        "sample": "24 Hrs Urine",
+        "time": "SAME DAY"
     },
     {
-        "index": "166",
         "name": "CREATININE (FLUID)",
-        "price": "450"
+        "price": 620,
+        "sample": "Fluid",
+        "time": "SAME DAY"
     },
     {
-        "index": "167",
         "name": "CREATININE (SERUM)",
-        "price": "450"
+        "price": 620,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "168",
         "name": "CREATININE (SPOT URINE)",
-        "price": "450"
+        "price": 620,
+        "sample": "Urine (Random/Spot)",
+        "time": "SAME DAY"
     },
     {
-        "index": "169",
         "name": "CREATININE CLEARANCE (24 HRS)",
-        "price": "800"
+        "price": 1100,
+        "sample": "Serum and 24Hrs Urine",
+        "time": "SAME DAY"
     },
     {
-        "index": "170",
         "name": "CRP (HIGH SENSITIVITY)",
-        "price": "1000"
+        "price": 1400,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "171",
         "name": "CRYOGLOBULINS",
-        "price": "2150"
+        "price": 3100,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "172",
         "name": "CSF FLUID FOR C/E",
-        "price": "1200"
+        "price": 1700,
+        "sample": "CSF",
+        "time": "SAME DAY"
     },
     {
-        "index": "173",
         "name": "CSF Fluid For GRAM STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "CSF",
+        "time": "SAME DAY"
     },
     {
-        "index": "174",
         "name": "CSF For  AFB STAIN / ZN STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "CSF",
+        "time": "SAME DAY"
     },
     {
-        "index": "175",
         "name": "CSF FOR C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "CSF",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "176",
         "name": "CSF For Cytology",
-        "price": "1100"
+        "price": 1850,
+        "sample": "CSF",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "177",
         "name": "CSF for Mycobacterium Culture",
-        "price": "2600"
+        "price": 3750,
+        "sample": "CSF",
+        "time": "AFTER 10 WEEKS"
     },
     {
-        "index": "178",
         "name": "Curretting For AFB Stain/ZN Stain",
-        "price": "300"
+        "price": 430,
+        "sample": "Curretting",
+        "time": "SAME DAY"
     },
     {
-        "index": "179",
         "name": "Curretting For C/S",
-        "price": "0"
+        "price": 1850,
+        "sample": "Curretting",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "180",
         "name": "Curretting For Gram Stain",
-        "price": "0"
+        "price": 430,
+        "sample": "Curretting",
+        "time": "SAME DAY"
     },
     {
-        "index": "181",
         "name": "CVP TIP FOR C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "CVP TIP",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "182",
         "name": "Cyclosporine (Whole Blood)",
-        "price": "4000"
+        "price": 5750,
+        "sample": "3cc EDTA BLOOD (CBC VIAL)",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "183",
         "name": "Cyclosporine (Whole Blood)",
-        "price": "4000"
+        "price": 5750,
+        "sample": "3cc EDTA BLOOD (CBC VIAL)",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "184",
         "name": "Cystic Fluid For  AFB STAIN / ZN STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "CSF",
+        "time": "SAME DAY"
     },
     {
-        "index": "185",
         "name": "Cystic Fluid For C/E",
-        "price": "1200"
+        "price": 1700,
+        "sample": "Fluid",
+        "time": "SAME DAY"
     },
     {
-        "index": "186",
         "name": "Cystic Fluid For C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "CYSTIC FLUID",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "187",
         "name": "Cystic Fluid For Cytology",
-        "price": "1100"
+        "price": 1520,
+        "sample": "Fluid",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "188",
         "name": "Cystic Fluid For GRAM STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "CSF",
+        "time": "SAME DAY"
     },
     {
-        "index": "189",
         "name": "D DIMER",
-        "price": "1600"
+        "price": 2250,
+        "sample": "Sodium Citrate Tube (PT Vial)",
+        "time": "SAME DAY"
     },
     {
-        "index": "190",
         "name": "Dengue (IgG)",
-        "price": "1100"
+        "price": 1520,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "191",
         "name": "Dengue (IgM)",
-        "price": "650"
+        "price": 950,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "192",
         "name": "DHEA SO4",
-        "price": "1400"
+        "price": 2050,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "193",
         "name": "DIGOXIN",
-        "price": "1100"
+        "price": 1520,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "194",
         "name": "DLC",
-        "price": "300"
+        "price": 430,
+        "sample": "3cc EDTA BLOOD (CBC VIAL)",
+        "time": "SAME DAY"
     },
     {
-        "index": "195",
         "name": "Ear Swab For  AFB STAIN / ZN STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "EAR SWAB",
+        "time": "SAME DAY"
     },
     {
-        "index": "196",
         "name": "EAR SWAB FOR C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "EAR SWAB",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "197",
         "name": "Ear Swab For GRAM STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "EAR SWAB",
+        "time": "SAME DAY"
     },
     {
-        "index": "198",
         "name": "ENA PROFILE",
-        "price": "5200"
+        "price": 7600,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER FOUR DAYS"
     },
     {
-        "index": "199",
         "name": "EOSINOPHIL COUNT",
-        "price": "150"
+        "price": 200,
+        "sample": "3cc EDTA BLOOD (CBC VIAL)",
+        "time": "SAME DAY"
     },
     {
-        "index": "200",
         "name": "EOSINOPHIL COUNT (SPUTUM)",
-        "price": "250"
+        "price": 380,
+        "sample": "SPUTUM",
+        "time": "SAME DAY"
     },
     {
-        "index": "201",
         "name": "EOSINOPHIL COUNT(Urine)",
-        "price": "250"
+        "price": 380,
+        "sample": "Urine (Random/Spot)",
+        "time": "SAME DAY"
     },
     {
-        "index": "202",
         "name": "ER,PR",
-        "price": "3250"
+        "price": 4750,
+        "sample": "Block and Slides,Report and History",
+        "time": "AFTER 9 DAYS"
     },
     {
-        "index": "203",
         "name": "ESR",
-        "price": "200"
+        "price": 280,
+        "sample": "3cc EDTA BLOOD (CBC VIAL)",
+        "time": "SAME DAY"
     },
     {
-        "index": "204",
         "name": "ESTROGEN (ESTRADIOL)",
-        "price": "1100"
+        "price": 1520,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "205",
         "name": "FACTOR IX LEVEL",
-        "price": "1400"
+        "price": 2050,
+        "sample": "Sodium Citrate Tube (PT Vial)",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "206",
         "name": "Factor V Leiden",
-        "price": "3500"
+        "price": 5130,
+        "sample": "Sodium Citrate Tube (PT Vial)",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "207",
         "name": "FACTOR VIII LEVEL",
-        "price": "1400"
+        "price": 2050,
+        "sample": "Sodium Citrate Tube (PT Vial)",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "208",
         "name": "FDP (D-Dimer)",
-        "price": "1600"
+        "price": 2250,
+        "sample": "Sodium Citrate Tube (PT Vial)",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "209",
         "name": "FERRITIN",
-        "price": "1100"
+        "price": 1600,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "210",
         "name": "Fetal  Hb.Electrophoresis",
-        "price": "1400"
+        "price": 2000,
+        "sample": "3cc EDTA BLOOD (CBC VIAL)",
+        "time": "AFTER FIVE DAYS"
     },
     {
-        "index": "211",
         "name": "FIBRINOGEN",
-        "price": "1100"
+        "price": 1600,
+        "sample": "Sodium Citrate Tube (PT Vial)",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "212",
         "name": "Fluid for Mycobacterium Culture",
-        "price": "2600"
+        "price": 3750,
+        "sample": "Abdominal Fluid",
+        "time": "AFTER 10 WEEKS"
     },
     {
-        "index": "213",
         "name": "FNAC (Procedure & Report)",
-        "price": "2500"
+        "price": 3650,
+        "sample": "CONTACT LAB",
+        "time": "AFTER FOUR DAYS"
     },
     {
-        "index": "214",
         "name": "FNAC Slides For Review",
-        "price": "1800"
+        "price": 2600,
+        "sample": "SLIDES",
+        "time": "AFTER FOUR DAYS"
     },
     {
-        "index": "215",
         "name": "FOLIC ACID (FOLATE LEVEL)",
-        "price": "1800"
+        "price": 1700,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "216",
         "name": "Free Androgen Index (FAI)",
-        "price": "2800"
+        "price": 3950,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "217",
         "name": "FREE T3",
-        "price": "1300"
+        "price": 1900,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "218",
         "name": "FREE T4",
-        "price": "1300"
+        "price": 1900,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "219",
         "name": "FREE TESTOSTERONE",
-        "price": "1800"
+        "price": 2600,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "220",
         "name": "FSH",
-        "price": "1200"
+        "price": 1700,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "221",
         "name": "Fungal Culture & Sensitivity (C/S)",
-        "price": "1500"
+        "price": 2150,
+        "sample": "Fluid",
+        "time": "SAME DAY"
     },
     {
-        "index": "222",
         "name": "Fungus Stain / Fungal Smear",
-        "price": "450"
+        "price": 650,
+        "sample": "BRONCHIAL WASHING",
+        "time": "SAME DAY"
     },
     {
-        "index": "223",
         "name": "G6 PD TEST",
-        "price": "1100"
+        "price": 1500,
+        "sample": "3cc EDTA BLOOD (CBC VIAL)",
+        "time": "SAME DAY"
     },
     {
-        "index": "224",
         "name": "GAMMA GT",
-        "price": "300"
+        "price": 470,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "225",
         "name": "GASTRIN LEVEL",
-        "price": "3300"
+        "price": 4750,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "226",
         "name": "Gauze Piece For C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "227",
         "name": "GCT (GLUCOSE CHALLANGE TEST)",
-        "price": "550"
+        "price": 800,
+        "sample": "1-2 Separate Plasma of Fluoride Vial",
+        "time": "SAME DAY"
     },
     {
-        "index": "228",
         "name": "GLOBULINS(Serum)",
-        "price": "350"
+        "price": 520,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "229",
         "name": "GROWTH HORMONE",
-        "price": "3200"
+        "price": 4600,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "230",
         "name": "GTT(GLUCOSE TOLERANCE TES)",
-        "price": "350"
+        "price": 520,
+        "sample": "1-5 Separate Plasma of Fluoride Vial",
+        "time": "SAME DAY"
     },
     {
-        "index": "231",
         "name": "H.D.L (CHOLESTEROL)",
-        "price": "400"
+        "price": 570,
+        "sample": "(Fasting) 3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "232",
         "name": "Haemagglutination Test For Echinococuus",
-        "price": "2100"
+        "price": 3000,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "233",
         "name": "HAPTOGLOBIN",
-        "price": "700"
+        "price": 1045,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "234",
         "name": "HAV IgG (ELISA)",
-        "price": "1350"
+        "price": 1950,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "235",
         "name": "HAV IgM (ELISA)",
-        "price": "1350"
+        "price": 1950,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "236",
         "name": "Hb(HEMOGLOBIN)",
-        "price": "250"
+        "price": 380,
+        "sample": "3cc EDTA BLOOD (CBC VIAL)",
+        "time": "SAME DAY"
     },
     {
-        "index": "237",
         "name": "HB. ELECTROPHORESIS",
-        "price": "1450"
+        "price": 2050,
+        "sample": "3cc EDTA BLOOD (CBC VIAL)",
+        "time": "AFTER FIVE DAYS"
     },
     {
-        "index": "238",
         "name": "HbA1C",
-        "price": "1100"
+        "price": 1570,
+        "sample": "3cc EDTA BLOOD (CBC VIAL)",
+        "time": "SAME DAY"
     },
     {
-        "index": "239",
         "name": "HBeAg (ELISA)",
-        "price": "1100"
+        "price": 1620,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "240",
         "name": "HBsAg (Screening)",
-        "price": "1100"
+        "price": 1520,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "241",
         "name": "HBsAg(ELISA)",
-        "price": "1100"
+        "price": 1620,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "242",
         "name": "HBV by PCR (Qualitative)",
-        "price": "4550"
+        "price": 6650,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER FOUR DAYS"
     },
     {
-        "index": "243",
         "name": "HBV by PCR (Quantitative)",
-        "price": "7150"
+        "price": 10450,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER FOUR DAYS"
     },
     {
-        "index": "244",
         "name": "Hct",
-        "price": "300"
+        "price": 430,
+        "sample": "3cc EDTA BLOOD (CBC VIAL)",
+        "time": "SAME DAY"
     },
     {
-        "index": "245",
         "name": "HCV by PCR (Qualitative)",
-        "price": "4550"
+        "price": 6650,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER FOUR DAYS"
     },
     {
-        "index": "246",
         "name": "HCV by PCR (Quantitative)",
-        "price": "6100"
+        "price": 9050,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER FOUR DAYS"
     },
     {
-        "index": "247",
         "name": "HCV Genotyping by PCR",
-        "price": "9000"
+        "price": 13060,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER FOUR DAYS"
     },
     {
-        "index": "248",
         "name": "HDV by PCR (Qualitative)",
-        "price": "4300"
+        "price": 6300,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER FOUR DAYS"
     },
     {
-        "index": "249",
         "name": "HDV by PCR (Quantitative)",
-        "price": "6800"
+        "price": 9950,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER FOUR DAYS"
     },
     {
-        "index": "250",
         "name": "HEAMOGLOBIN (URINE)",
-        "price": "250"
+        "price": 380,
+        "sample": "Urine (Random/Spot)",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "251",
         "name": "HEPATITIS \"B\" PROFILE",
-        "price": "6300"
+        "price": 9250,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "252",
         "name": "Herpes IgG",
-        "price": "1000"
+        "price": 1420,
+        "sample": "CSF",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "253",
         "name": "Herpes IgM",
-        "price": "1000"
+        "price": 1420,
+        "sample": "CSF",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "254",
         "name": "HLA-B27",
-        "price": "8800"
+        "price": 12870,
+        "sample": "3cc EDTA BLOOD (CBC VIAL)",
+        "time": "ON CALL"
     },
     {
-        "index": "255",
         "name": "HOMOCYSTINE LEVEL",
-        "price": "1200"
+        "price": 1650,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "256",
         "name": "HVS For AFB STAIN / ZN STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "HVS SWAB",
+        "time": "SAME DAY"
     },
     {
-        "index": "257",
         "name": "HVS FOR C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "HVS SWAB",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "258",
         "name": "HVS For GRAM STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "HVS SWAB",
+        "time": "SAME DAY"
     },
     {
-        "index": "259",
         "name": "ICT MALARIA",
-        "price": "800"
+        "price": 1150,
+        "sample": "3cc EDTA BLOOD (CBC VIAL)",
+        "time": "SAME DAY"
     },
     {
-        "index": "260",
         "name": "IgA",
-        "price": "600"
+        "price": 850,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "261",
         "name": "IgE",
-        "price": "1200"
+        "price": 1650,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "262",
         "name": "IGF-1 ( Insulin Growth Factor - 1)",
-        "price": "4500"
+        "price": 6470,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "263",
         "name": "IgG",
-        "price": "600"
+        "price": 850,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "264",
         "name": "IgM",
-        "price": "600"
+        "price": 850,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "265",
         "name": "Immunoglobulins (IgA, IgM, IgG)",
-        "price": "1700"
+        "price": 2450,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "266",
         "name": "INSULIN",
-        "price": "1700"
+        "price": 2450,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "267",
         "name": "INTACT PARATHYROID HORMONE",
-        "price": "1450"
+        "price": 2100,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "268",
         "name": "IONIZED CALCIUM",
-        "price": "650"
+        "price": 950,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "269",
         "name": "IRON",
-        "price": "450"
+        "price": 620,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "270",
         "name": "Joint  Fluid For GRAM STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "Joint Fluid",
+        "time": "SAME DAY"
     },
     {
-        "index": "271",
         "name": "JOINT FLUID C/E",
-        "price": "1200"
+        "price": 1710,
+        "sample": "Joint Fluid",
+        "time": "SAME DAY"
     },
     {
-        "index": "272",
         "name": "Joint Fluid For AFB STAIN / ZN STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "Joint Fluid",
+        "time": "SAME DAY"
     },
     {
-        "index": "273",
         "name": "JOINT FLUID FOR C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "Joint Fluid",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "274",
         "name": "Joint Fluid For C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "Joint Fluid",
+        "time": "AFTER 10 WEEKS"
     },
     {
-        "index": "275",
         "name": "KETONES(BLOOD)",
-        "price": "200"
+        "price": 270,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "276",
         "name": "KETONES(URINE)",
-        "price": "200"
+        "price": 270,
+        "sample": "Urine (Random/Spot)",
+        "time": "SAME DAY"
     },
     {
-        "index": "277",
         "name": "Knee Joint  Fluid For AFB C/S",
-        "price": "2600"
+        "price": 3750,
+        "sample": "Knee Joint Fluid",
+        "time": "AFTER 10 WEEKS"
     },
     {
-        "index": "278",
         "name": "Knee Joint  Fluid For C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "Knee Joint Fluid",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "279",
         "name": "Knee Joint Fluid For  AFB STAIN / ZN STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "Knee Joint Fluid",
+        "time": "SAME DAY"
     },
     {
-        "index": "280",
         "name": "Knee Joint Fluid For Analysis",
-        "price": "1200"
+        "price": 1710,
+        "sample": "Knee Joint Fluid",
+        "time": "SAME DAY"
     },
     {
-        "index": "281",
         "name": "Knee Joint Fluid For Cytology",
-        "price": "1100"
+        "price": 1520,
+        "sample": "Knee Joint Fluid",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "282",
         "name": "Knee Joint Fluid For GRAM STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "Knee Joint Fluid",
+        "time": "SAME DAY"
     },
     {
-        "index": "283",
         "name": "L.D.H (CSF)",
-        "price": "400"
+        "price": 570,
+        "sample": "CSF",
+        "time": "SAME DAY"
     },
     {
-        "index": "284",
         "name": "L.D.H (FLUID)",
-        "price": "400"
+        "price": 570,
+        "sample": "Fluid",
+        "time": "SAME DAY"
     },
     {
-        "index": "285",
         "name": "L.D.H.(Serum)",
-        "price": "400"
+        "price": 570,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "286",
         "name": "L.D.L (CHOLESTEROL)",
-        "price": "400"
+        "price": 570,
+        "sample": "(Fasting) 3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "287",
         "name": "LACTATE LEVEL",
-        "price": "800"
+        "price": 1150,
+        "sample": "Plasma of EDTA Should be seperate with 30 Min",
+        "time": "SAME DAY"
     },
     {
-        "index": "288",
         "name": "LE CELL",
-        "price": "1200"
+        "price": 1620,
+        "sample": "3-5cc edta blood and serum",
+        "time": "AFTER ONE WEEK"
     },
     {
-        "index": "289",
         "name": "Leptospiral Antibody (IgG or IgM)",
-        "price": "4300"
+        "price": 6270,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "290",
         "name": "LH",
-        "price": "1100"
+        "price": 1570,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "291",
         "name": "LIPASE(SERUM)",
-        "price": "700"
+        "price": 1040,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "292",
         "name": "LIPID PROFILE",
-        "price": "1450"
+        "price": 2100,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "DAILY"
     },
     {
-        "index": "293",
         "name": "LITHIUM",
-        "price": "800"
+        "price": 1140,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "294",
         "name": "LIVER FUNCTION TEST (L.F.T)",
-        "price": "1100"
+        "price": 1570,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "DAILY"
     },
     {
-        "index": "295",
         "name": "LUPUS  ANTICOAGULANT Abs",
-        "price": "3500"
+        "price": 5150,
+        "sample": "Serum and  Sodium Citrate( PT Vial)",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "296",
         "name": "MAGNESIUM(SERUM)",
-        "price": "450"
+        "price": 620,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "297",
         "name": "MALARIAL PARASITE",
-        "price": "400"
+        "price": 570,
+        "sample": "3cc EDTA BLOOD (CBC VIAL)",
+        "time": "SAME DAY"
     },
     {
-        "index": "298",
-        "name": "MARIJUANA (URINE)",
-        "price": "0"
-    },
-    {
-        "index": "299",
         "name": "MCH",
-        "price": "250"
+        "price": 380,
+        "sample": "3cc EDTA BLOOD (CBC VIAL)",
+        "time": "SAME DAY"
     },
     {
-        "index": "300",
         "name": "MCHC",
-        "price": "250"
+        "price": 380,
+        "sample": "3cc EDTA BLOOD (CBC VIAL)",
+        "time": "SAME DAY"
     },
     {
-        "index": "301",
         "name": "MCV",
-        "price": "250"
+        "price": 380,
+        "sample": "3cc EDTA BLOOD (CBC VIAL)",
+        "time": "SAME DAY"
     },
     {
-        "index": "302",
         "name": "MEASELS IgG",
-        "price": "1300"
+        "price": 1900,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "303",
         "name": "MEASELS IgM",
-        "price": "1300"
+        "price": 1900,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "304",
         "name": "Measles IgG",
-        "price": "1300"
+        "price": 1900,
+        "sample": "CSF",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "305",
         "name": "Measles IgM",
-        "price": "1300"
+        "price": 1900,
+        "sample": "CSF",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "306",
         "name": "METANEPHRINES 24 HOURS (URINE)",
-        "price": "1100"
+        "price": 1520,
+        "sample": "24 Hrs Urine",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "307",
         "name": "METHAMPHETAMINE (URINE)",
-        "price": "1100"
+        "price": 1520,
+        "sample": "Urine (Random/Spot)",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "308",
         "name": "MICROALBUMIN UREA (24 Hrs Urine)",
-        "price": "650"
+        "price": 950,
+        "sample": "24 Hrs Urine",
+        "time": "SAME DAY"
     },
     {
-        "index": "309",
         "name": "MICROALBUMIN UREA (SPOT URINE)",
-        "price": "650"
+        "price": 950,
+        "sample": "Urine (Random/Spot)",
+        "time": "SAME DAY"
     },
     {
-        "index": "310",
         "name": "Milk  For  AFB STAIN / ZN STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "MILK",
+        "time": "SAME DAY"
     },
     {
-        "index": "311",
         "name": "Milk For  C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "MILK",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "312",
         "name": "Milk For Cytology",
-        "price": "1100"
+        "price": 1520,
+        "sample": "MILK",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "313",
         "name": "Milk For GRAM STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "MILK",
+        "time": "SAME DAY"
     },
     {
-        "index": "314",
         "name": "Milk(Leftt) For C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "MILK",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "315",
         "name": "Milk(Right) For C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "MILK",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "316",
         "name": "MORPHINE DERIVATIVES(URINE)",
-        "price": "1100"
+        "price": 1520,
+        "sample": "spot Urine",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "317",
         "name": "MTB by PCR",
-        "price": "3200"
+        "price": 4610,
+        "sample": "CONTACT LAB",
+        "time": "AFTER ONE WEEK"
     },
     {
-        "index": "318",
         "name": "MUMPS IgG",
-        "price": "1450"
+        "price": 2100,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "319",
         "name": "Mumps IgG",
-        "price": "1450"
+        "price": 2100,
+        "sample": "CSF",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "320",
         "name": "MUMPS IgM",
-        "price": "1450"
+        "price": 2100,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "321",
         "name": "Mumps IgM",
-        "price": "1450"
+        "price": 2100,
+        "sample": "CSF",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "322",
         "name": "Mycodot IgG ELISA",
-        "price": "1100"
+        "price": 1520,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "323",
         "name": "Mycodot IgM ELISA",
-        "price": "1100"
+        "price": 1520,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "324",
         "name": "MYCODOT(IgG,IgM)Screening",
-        "price": "1100"
+        "price": 1520,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "325",
-        "name": "MYOGLOBIN (URINE)",
-        "price": "0"
-    },
-    {
-        "index": "326",
         "name": "Nail for Fungal Stain",
-        "price": "1500"
+        "price": 2190,
+        "sample": "NAIL",
+        "time": "SAME DAY"
     },
     {
-        "index": "327",
         "name": "NASAL SECRETION C/S (RIGHT)",
-        "price": "1300"
+        "price": 1850,
+        "sample": "NASAL SECRATION",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "328",
         "name": "Nasal Secretion For  AFB STAIN / ZN STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "NASAL SECRATION",
+        "time": "SAME DAY"
     },
     {
-        "index": "329",
         "name": "NASAL SECRETION for AFB  C/S",
-        "price": "2600"
+        "price": 3750,
+        "sample": "NASAL SECRATION",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "330",
         "name": "Nasal Secretion For C/S",
-        "price": "260"
+        "price": 1850,
+        "sample": "NASAL SECRATION",
+        "time": "AFTER 10 WEEKS"
     },
     {
-        "index": "331",
         "name": "Nasal Secretion For GRAM STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "NASAL SECRATION",
+        "time": "SAME DAY"
     },
     {
-        "index": "332",
         "name": "OPIATES (URINE)",
-        "price": "1100"
+        "price": 1520,
+        "sample": "spot Urine",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "333",
         "name": "OSMOLALITY (SERUM)",
-        "price": "700"
+        "price": 1000,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "334",
         "name": "OSMOLALITY (URINE)",
-        "price": "700"
+        "price": 1000,
+        "sample": "spot Urine",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "335",
-        "name": "Osmotic Fragility",
-        "price": "0"
-    },
-    {
-        "index": "336",
         "name": "P T H",
-        "price": "1560"
+        "price": 2100,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "337",
         "name": "Pap (Cervical) Smear",
-        "price": "1800"
+        "price": 2600,
+        "sample": "SLIDES",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "338",
         "name": "Pericardial Fluid For  AFB STAIN / ZN STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "Pericardial Fluid",
+        "time": "SAME DAY"
     },
     {
-        "index": "339",
         "name": "Pericardial Fluid For  C/E",
-        "price": "1100"
+        "price": 1570,
+        "sample": "Pericardial Fluid",
+        "time": "SAME DAY"
     },
     {
-        "index": "340",
         "name": "Pericardial Fluid For  C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "Pericardial Fluid",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "341",
         "name": "Pericardial Fluid For C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "Pericardial Fluid",
+        "time": "AFTER 10 WEEKS"
     },
     {
-        "index": "342",
         "name": "Pericardial Fluid For Cytology",
-        "price": "1100"
+        "price": 1520,
+        "sample": "Fluid",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "343",
         "name": "Pericardial Fluid For GRAM STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "Pericardial Fluid",
+        "time": "SAME DAY"
     },
     {
-        "index": "344",
         "name": "PERIPHERAL BLOOD SMEARS",
-        "price": "500"
+        "price": 760,
+        "sample": "3cc EDTA BLOOD (CBC VIAL)",
+        "time": "SAME DAY"
     },
     {
-        "index": "345",
         "name": "PERITONEAL FLUID C/E",
-        "price": "1200"
+        "price": 1710,
+        "sample": "Peritoneal Fluid",
+        "time": "SAME DAY"
     },
     {
-        "index": "346",
         "name": "Peritoneal Fluid For  AFB STAIN / ZN STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "Peritoneal Fluid",
+        "time": "SAME DAY"
     },
     {
-        "index": "347",
         "name": "Peritoneal Fluid For  C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "Peritoneal Fluid",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "348",
         "name": "Peritoneal Fluid For C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "Peritoneal Fluid",
+        "time": "AFTER 10 WEEKS"
     },
     {
-        "index": "349",
         "name": "Peritoneal Fluid For Cytology",
-        "price": "1100"
+        "price": 1520,
+        "sample": "Fluid",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "350",
         "name": "Peritoneal Fluid For GRAM STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "Peritoneal Fluid",
+        "time": "SAME DAY"
     },
     {
-        "index": "351",
         "name": "pH (Urine)",
-        "price": "200"
+        "price": 270,
+        "sample": "Urine (Random/Spot)",
+        "time": "SAME DAY"
     },
     {
-        "index": "352",
         "name": "pH and Reducing Substance (Stool)",
-        "price": "250"
+        "price": 330,
+        "sample": "STOOL",
+        "time": "SAME DAY"
     },
     {
-        "index": "353",
         "name": "PHENYTOIN (DILANTIN)",
-        "price": "950"
+        "price": 1380,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "354",
         "name": "PHOSPHATE (24 HRS URINE)",
-        "price": "250"
+        "price": 380,
+        "sample": "24 Hrs Urine",
+        "time": "NEXT DAY"
     },
     {
-        "index": "355",
         "name": "PHOSPHATE (SERUM)",
-        "price": "400"
+        "price": 570,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "356",
         "name": "PHOSPHATE (SPOT URINE)",
-        "price": "400"
+        "price": 570,
+        "sample": "spot Urine",
+        "time": "SAME DAY"
     },
     {
-        "index": "357",
         "name": "PHOSPHORUS (SERUM)",
-        "price": "0"
+        "price": 570,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "358",
         "name": "Platelet Count",
-        "price": "300"
+        "price": 430,
+        "sample": "3cc EDTA BLOOD (CBC VIAL)",
+        "time": "SAME DAY"
     },
     {
-        "index": "359",
         "name": "PLEURAL FLUID C/E",
-        "price": "0"
+        "price": 1710,
+        "sample": "Pleural Fluid",
+        "time": "SAME DAY"
     },
     {
-        "index": "360",
         "name": "Pleural Fluid For  AFB STAIN / ZN STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "Pleural Fluid",
+        "time": "SAME DAY"
     },
     {
-        "index": "361",
         "name": "PLEURAL FLUID FOR C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "Pleural Fluid",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "362",
         "name": "Pleural Fluid For C/S",
-        "price": "0"
+        "price": 1850,
+        "sample": "Pleural Fluid",
+        "time": "AFTER 10 WEEKS"
     },
     {
-        "index": "363",
         "name": "Pleural Fluid For Cytology",
-        "price": "0"
+        "price": 1520,
+        "sample": "Fluid",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "364",
         "name": "Pleural Fluid For GRAM STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "Pleural Fluid",
+        "time": "SAME DAY"
     },
     {
-        "index": "365",
         "name": "PORPHOBILINOGEN (24 HRS URINE)",
-        "price": "550"
+        "price": 760,
+        "sample": "24 Hrs Urine",
+        "time": "AFTER FOUR DAYS"
     },
     {
-        "index": "366",
         "name": "Porphobilinogen (Spot Urine)",
-        "price": "550"
+        "price": 760,
+        "sample": "24 Hrs Urine",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "367",
         "name": "POTASSIUM (SERUM)",
-        "price": "300"
+        "price": 430,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "368",
         "name": "POTASSIUM (URINE)",
-        "price": "300"
+        "price": 430,
+        "sample": "Urine (Random/Spot)",
+        "time": "NEXT DAY"
     },
     {
-        "index": "369",
         "name": "Pregnancy Test (Urine)",
-        "price": "250"
+        "price": 380,
+        "sample": "Urine (Random/Spot)",
+        "time": "SAME DAY"
     },
     {
-        "index": "370",
         "name": "Pro BNP",
-        "price": "2000"
+        "price": 2850,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "371",
         "name": "PROGESTERONE",
-        "price": "1100"
+        "price": 1520,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "372",
         "name": "PROLACTIN (LEVEL)",
-        "price": "1100"
+        "price": 1670,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "373",
         "name": "PROTEIN (24 HRS URINE)",
-        "price": "400"
+        "price": 570,
+        "sample": "24 Hrs Urine",
+        "time": "SAME DAY"
     },
     {
-        "index": "374",
         "name": "PROTEIN (SPOT URINE)",
-        "price": "400"
+        "price": 570,
+        "sample": "Urine (Random/Spot)",
+        "time": "SAME DAY"
     },
     {
-        "index": "375",
         "name": "PROTEIN ELECTROPHORESIS",
-        "price": "950"
+        "price": 1380,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER 10 DAYS"
     },
     {
-        "index": "376",
         "name": "PROTEIN(Serum)",
-        "price": "400"
+        "price": 570,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "377",
         "name": "PROTEIN/CREATININE RATIO",
-        "price": "800"
+        "price": 1190,
+        "sample": "Urine (Random/Spot)",
+        "time": "SAME DAY"
     },
     {
-        "index": "378",
         "name": "PROTEIN-C",
-        "price": "3000"
+        "price": 4370,
+        "sample": "Sodium Citrate Tube (PT Vial)",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "379",
         "name": "PROTEIN-S",
-        "price": "3000"
+        "price": 4370,
+        "sample": "Sodium Citrate Tube (PT Vial)",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "380",
         "name": "PROTHROMBIN TIME (PT WITH INR)",
-        "price": "500"
+        "price": 720,
+        "sample": "Sodium Citrate Tube (PT Vial)",
+        "time": "SAME DAY"
     },
     {
-        "index": "381",
         "name": "PSA",
-        "price": "1450"
+        "price": 2100,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "382",
         "name": "Pus For  AFB STAIN / ZN STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "PUS",
+        "time": "SAME DAY"
     },
     {
-        "index": "383",
         "name": "PUS FOR C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "PUS",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "384",
         "name": "Pus For C/S",
-        "price": "1500"
+        "price": 2190,
+        "sample": "PUS",
+        "time": "AFTER 10 WEEKS"
     },
     {
-        "index": "385",
         "name": "Pus For Cytology",
-        "price": "1100"
+        "price": 1520,
+        "sample": "PUS",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "386",
         "name": "Pus for Fungal Stain",
-        "price": "450"
+        "price": 660,
+        "sample": "PUS",
+        "time": "SAME DAY"
     },
     {
-        "index": "387",
         "name": "Pus For GRAM STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "PUS",
+        "time": "SAME DAY"
     },
     {
-        "index": "388",
         "name": "Pus Swab For  AFB STAIN / ZN STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "PUS SWAB",
+        "time": "SAME DAY"
     },
     {
-        "index": "389",
         "name": "PUS SWAB FOR C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "PUS SWAB",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "390",
         "name": "Pus Swab For GRAM STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "PUS SWAB",
+        "time": "SAME DAY"
     },
     {
-        "index": "391",
         "name": "RA Factor (Qualitative)",
-        "price": "700"
+        "price": 1050,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "392",
         "name": "RA Factor (Quantitative)",
-        "price": "700"
+        "price": 1050,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "393",
         "name": "RBC",
-        "price": "250"
+        "price": 380,
+        "sample": "3cc EDTA BLOOD (CBC VIAL)",
+        "time": "SAME DAY"
     },
     {
-        "index": "394",
         "name": "RBC FOLATE LEVEL",
-        "price": "0"
+        "price": 1710,
+        "sample": "3cc EDTA BLOOD (CBC VIAL)",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "395",
         "name": "RBC MORPHOLOGY",
-        "price": "350"
+        "price": 530,
+        "sample": "3cc EDTA BLOOD (CBC VIAL)",
+        "time": "SAME DAY"
     },
     {
-        "index": "396",
         "name": "RENAL FUNCTION TEST.",
-        "price": "800"
+        "price": 1140,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "397",
         "name": "Reticulocytes",
-        "price": "350"
+        "price": 475,
+        "sample": "3cc EDTA BLOOD (CBC VIAL)",
+        "time": "SAME DAY"
     },
     {
-        "index": "398",
         "name": "RPOCs For C/S",
-        "price": "0"
+        "price": 1850,
+        "sample": "RPOCs",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "399",
         "name": "RUBELLA IgG",
-        "price": "950"
+        "price": 1380,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "400",
         "name": "RUBELLA IgM",
-        "price": "950"
+        "price": 1380,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "401",
         "name": "S.G.O.T (A.S.T)",
-        "price": "950"
+        "price": 430,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "402",
         "name": "S.G.P.T (A.L.T)",
-        "price": "950"
+        "price": 430,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "403",
         "name": "SCROTUM FLUID FOR C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "Fluid",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "404",
         "name": "Semen  For  AFB STAIN / ZN STAIN",
-        "price": "1300"
+        "price": 430,
+        "sample": "SEMEN",
+        "time": "SAME DAY"
     },
     {
-        "index": "405",
         "name": "SEMEN ANALYSIS",
-        "price": "1450"
+        "price": 2100,
+        "sample": "SEMEN",
+        "time": "SAME DAY"
     },
     {
-        "index": "406",
         "name": "SEMEN FOR C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "SEMEN",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "407",
         "name": "Semen For GRAM STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "SEMEN",
+        "time": "SAME DAY"
     },
     {
-        "index": "408",
         "name": "Sequestrum For C/S",
-        "price": "0"
+        "price": 1850,
+        "sample": "SPUTUM",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "409",
         "name": "SERUM ELECTROLYTES",
-        "price": "800"
+        "price": 1140,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "410",
         "name": "SHBG (Sex Hormone Binding Globulin)",
-        "price": "1200"
+        "price": 1710,
+        "sample": "CONTACT LAB",
+        "time": "DAILY"
     },
     {
-        "index": "411",
         "name": "SICKLING TEST",
-        "price": "300"
+        "price": 430,
+        "sample": "3cc EDTA BLOOD (CBC VIAL)",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "412",
         "name": "Skin Scrapping for Fungus",
-        "price": "1550"
+        "price": 2190,
+        "sample": "HAIR",
+        "time": "SAME DAY"
     },
     {
-        "index": "413",
         "name": "Skin Scrappings for Fungal Stain",
-        "price": "450"
+        "price": 660,
+        "sample": "SKIN SCRAPING",
+        "time": "SAME DAY"
     },
     {
-        "index": "414",
         "name": "Slides For  Cytology",
-        "price": "1800"
+        "price": 2620,
+        "sample": "SLIDES",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "415",
         "name": "SODIUM",
-        "price": "300"
+        "price": 430,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "416",
         "name": "SODIUM (24URINE)",
-        "price": "300"
+        "price": 430,
+        "sample": "24 Hrs Urine",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "417",
         "name": "SODIUM (URINE)",
-        "price": "300"
+        "price": 430,
+        "sample": "Urine (Random/Spot)",
+        "time": "AFTER ONE DAY"
     },
     {
-        "index": "418",
         "name": "SPECIFIC GRAVITY",
-        "price": "200"
+        "price": 260,
+        "sample": "Urine (Random/Spot)",
+        "time": "SAME DAY"
     },
     {
-        "index": "419",
         "name": "SPUTUM FOR AFB STAIN / ZN STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "SPUTUM",
+        "time": "SAME DAY"
     },
     {
-        "index": "420",
         "name": "SPUTUM FOR C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "SPUTUM",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "421",
         "name": "Sputum For C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "SPUTUM",
+        "time": "AFTER 10 WEEKS"
     },
     {
-        "index": "422",
         "name": "Sputum For Cytology",
-        "price": "1100"
+        "price": 1520,
+        "sample": "SPUTUM",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "423",
         "name": "Sputum for Fungal Stain",
-        "price": "450"
+        "price": 660,
+        "sample": "SPUTUM",
+        "time": "SATURDAY"
     },
     {
-        "index": "424",
         "name": "SPUTUM FOR GRAM STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "SPUTUM",
+        "time": "SAME DAY"
     },
     {
-        "index": "425",
         "name": "Stone for Chemical Analysis",
-        "price": "1650"
+        "price": 2380,
+        "sample": "STONE",
+        "time": "SAME DAY"
     },
     {
-        "index": "426",
         "name": "STOOL FOR C/E",
-        "price": "300"
+        "price": 430,
+        "sample": "STOOL",
+        "time": "SAME DAY"
     },
     {
-        "index": "427",
         "name": "Stool For C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "STOOL",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "428",
         "name": "STOOL FOR H, PYLORI ANTIGEN",
-        "price": "3600"
+        "price": 5230,
+        "sample": "STOOL",
+        "time": "SAME DAY"
     },
     {
-        "index": "429",
         "name": "STOOL FOR OCCULT BLOOD",
-        "price": "250"
+        "price": 330,
+        "sample": "STOOL",
+        "time": "SAME DAY"
     },
     {
-        "index": "430",
         "name": "STOOL pH",
-        "price": "250"
+        "price": 330,
+        "sample": "STOOL",
+        "time": "SAME DAY"
     },
     {
-        "index": "431",
         "name": "SUGAR 1  1/2 HRS",
-        "price": "200"
+        "price": 285,
+        "sample": "Separate Plasma of Fluoride Vial",
+        "time": "SAME DAY"
     },
     {
-        "index": "432",
         "name": "SUGAR 1  1/2 HRS. AFTER 75 GRAMS GLUCOSE",
-        "price": "200"
+        "price": 285,
+        "sample": "Separate Plasma of Fluoride Vial",
+        "time": "SAME DAY"
     },
     {
-        "index": "433",
         "name": "SUGAR 1 1/2 HRS ABF",
-        "price": "200"
+        "price": 285,
+        "sample": "Separate Plasma of Fluoride Vial",
+        "time": "SAME DAY"
     },
     {
-        "index": "434",
         "name": "SUGAR 1 HOUR AFTER 50 GRAMS GLUCOSE",
-        "price": "250"
+        "price": 330,
+        "sample": "Separate Plasma of Fluoride Vial",
+        "time": "SAME DAY"
     },
     {
-        "index": "435",
         "name": "SUGAR 1 HOUR AFTER 75 GRAMS GLUCOSE",
-        "price": "200"
+        "price": 285,
+        "sample": "Separate Plasma of Fluoride Vial",
+        "time": "SAME DAY"
     },
     {
-        "index": "436",
         "name": "SUGAR 1 HOUR PP",
-        "price": "200"
+        "price": 285,
+        "sample": "Separate Plasma of Fluoride Vial",
+        "time": "SAME DAY"
     },
     {
-        "index": "437",
         "name": "SUGAR 1 HR ABF",
-        "price": "200"
+        "price": 285,
+        "sample": "Separate Plasma of Fluoride Vial",
+        "time": "SAME DAY"
     },
     {
-        "index": "438",
         "name": "SUGAR 1/2 HOUR",
-        "price": "200"
+        "price": 285,
+        "sample": "Separate Plasma of Fluoride Vial",
+        "time": "SAME DAY"
     },
     {
-        "index": "439",
         "name": "SUGAR 1/2 HOUR ABF AFTER 50 GRAMS GLUCOSE",
-        "price": "200"
+        "price": 285,
+        "sample": "Separate Plasma of Fluoride Vial",
+        "time": "SAME DAY"
     },
     {
-        "index": "440",
         "name": "SUGAR 1/2 HOUR AFTER 75 GRAMS GLUCOSE",
-        "price": "200"
+        "price": 285,
+        "sample": "Separate Plasma of Fluoride Vial",
+        "time": "SAME DAY"
     },
     {
-        "index": "441",
         "name": "SUGAR 2  1/2 HRS",
-        "price": "200"
+        "price": 285,
+        "sample": "Separate Plasma of Fluoride Vial",
+        "time": "SAME DAY"
     },
     {
-        "index": "442",
         "name": "SUGAR 2 1/2 HRS ABF",
-        "price": "200"
+        "price": 285,
+        "sample": "Separate Plasma of Fluoride Vial",
+        "time": "SAME DAY"
     },
     {
-        "index": "443",
         "name": "SUGAR 2 HRS ABF",
-        "price": "200"
+        "price": 285,
+        "sample": "Separate Plasma of Fluoride Vial",
+        "time": "SAME DAY"
     },
     {
-        "index": "444",
         "name": "SUGAR 2 HRS AFTER 50 GRAMS GLUCOSE",
-        "price": "200"
+        "price": 285,
+        "sample": "Separate Plasma of Fluoride Vial",
+        "time": "SAME DAY"
     },
     {
-        "index": "445",
         "name": "SUGAR 2 HRS AFTER 75 GRAMS GLUCOSE",
-        "price": "200"
+        "price": 285,
+        "sample": "Separate Plasma of Fluoride Vial",
+        "time": "SAME DAY"
     },
     {
-        "index": "446",
         "name": "SUGAR 2 HRS. PP",
-        "price": "200"
+        "price": 285,
+        "sample": "Separate Plasma of Fluoride Vial",
+        "time": "SAME DAY"
     },
     {
-        "index": "447",
         "name": "SUGAR 2 HRS.(URINE)",
-        "price": "200"
+        "price": 285,
+        "sample": "Urine (Random/Spot)",
+        "time": "SAME DAY"
     },
     {
-        "index": "448",
         "name": "SUGAR 3 HRS ABF",
-        "price": "200"
+        "price": 285,
+        "sample": "Separate Plasma of Fluoride Vial",
+        "time": "SAME DAY"
     },
     {
-        "index": "449",
         "name": "SUGAR 3 HRS.",
-        "price": "200"
+        "price": 285,
+        "sample": "Separate Plasma of Fluoride Vial",
+        "time": "SAME DAY"
     },
     {
-        "index": "450",
         "name": "SUGAR 4 HRS",
-        "price": "200"
+        "price": 285,
+        "sample": "Separate Plasma of Fluoride Vial",
+        "time": "SAME DAY"
     },
     {
-        "index": "451",
         "name": "SUGAR 5 HRS",
-        "price": "200"
+        "price": 285,
+        "sample": "Separate Plasma of Fluoride Vial",
+        "time": "SAME DAY"
     },
     {
-        "index": "452",
         "name": "SUGAR AFTER 1 HOUR",
-        "price": "200"
+        "price": 285,
+        "sample": "Separate Plasma of Fluoride Vial",
+        "time": "SAME DAY"
     },
     {
-        "index": "453",
         "name": "SUGAR AFTER 1 HRS (URINE)",
-        "price": "200"
+        "price": 285,
+        "sample": "Urine (Random/Spot)",
+        "time": "SAME DAY"
     },
     {
-        "index": "454",
         "name": "SUGAR AFTER 1-1/2 HRS (URINE)",
-        "price": "200"
+        "price": 285,
+        "sample": "Urine (Random/Spot)",
+        "time": "SAME DAY"
     },
     {
-        "index": "455",
         "name": "SUGAR AFTER 2 HRS",
-        "price": "200"
+        "price": 285,
+        "sample": "Separate Plasma of Fluoride Vial",
+        "time": "SAME DAY"
     },
     {
-        "index": "456",
         "name": "SUGAR AFTER 3 HRS",
-        "price": "200"
+        "price": 285,
+        "sample": "Separate Plasma of Fluoride Vial",
+        "time": "SAME DAY"
     },
     {
-        "index": "457",
         "name": "SUGAR AFTER DINNER",
-        "price": "200"
+        "price": 285,
+        "sample": "Separate Plasma of Fluoride Vial",
+        "time": "SAME DAY"
     },
     {
-        "index": "458",
         "name": "SUGAR AFTER LUNCH",
-        "price": "200"
+        "price": 285,
+        "sample": "Separate Plasma of Fluoride Vial",
+        "time": "SAME DAY"
     },
     {
-        "index": "459",
         "name": "SUGAR BEFORE DINNER",
-        "price": "200"
+        "price": 285,
+        "sample": "Separate Plasma of Fluoride Vial",
+        "time": "SAME DAY"
     },
     {
-        "index": "460",
         "name": "SUGAR BEFORE LUNCH",
-        "price": "200"
+        "price": 285,
+        "sample": "Separate Plasma of Fluoride Vial",
+        "time": "SAME DAY"
     },
     {
-        "index": "461",
         "name": "SUGAR FASTING (URINE)",
-        "price": "200"
+        "price": 285,
+        "sample": "Urine (Random/Spot)",
+        "time": "SAME DAY"
     },
     {
-        "index": "462",
         "name": "SUGAR RANDOM",
-        "price": "200"
+        "price": 285,
+        "sample": "Separate Plasma of Fluoride Vial",
+        "time": "SAME DAY"
     },
     {
-        "index": "463",
         "name": "SUGAR RANDOM (URINE)",
-        "price": "200"
+        "price": 285,
+        "sample": "Urine (Random/Spot)",
+        "time": "SAME DAY"
     },
     {
-        "index": "464",
         "name": "SWAB FOR C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "SWAB",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "465",
         "name": "Swab for Mycobacterium Culture",
-        "price": "2600"
+        "price": 3750,
+        "sample": "Ascitic Fluid",
+        "time": "AFTER 10 WEEKS"
     },
     {
-        "index": "466",
         "name": "SYNOVIAL FLUID C/E",
-        "price": "0"
+        "price": 1710,
+        "sample": "Synovial Fluid",
+        "time": "SAME DAY"
     },
     {
-        "index": "467",
         "name": "Synovial Fluid For  AFB STAIN / ZN STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "Synovial Fluid",
+        "time": "SAME DAY"
     },
     {
-        "index": "468",
         "name": "Synovial Fluid For  C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "Synovial Fluid",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "469",
         "name": "Synovial Fluid For C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "Synovial Fluid",
+        "time": "AFTER 10 WEEKS"
     },
     {
-        "index": "470",
         "name": "Synovial Fluid For Cytology",
-        "price": "0"
+        "price": 1520,
+        "sample": "Synovial Fluid",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "471",
         "name": "Synovial Fluid For GRAM STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "Synovial Fluid",
+        "time": "SAME DAY"
     },
     {
-        "index": "472",
         "name": "T.I.B.C",
-        "price": "600"
+        "price": 850,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "473",
         "name": "T3",
-        "price": "2100"
+        "price": 3150,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "474",
         "name": "T4",
-        "price": "800"
+        "price": 1140,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "475",
         "name": "Throad Swab For  AFB STAIN / ZN STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "THROAT SWAB",
+        "time": "SAME DAY"
     },
     {
-        "index": "476",
         "name": "THROAT SWAB FOR C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "THROAT SWAB",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "477",
         "name": "Throat Swab For Cytology",
-        "price": "0"
+        "price": 1520,
+        "sample": "SWAB",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "478",
         "name": "Throat Swab For GRAM STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "THROAT SWAB",
+        "time": "SAME DAY"
     },
     {
-        "index": "479",
         "name": "Thyroid Profile",
-        "price": "2100"
+        "price": 3140,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "480",
         "name": "TIP For C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "TIP",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "481",
         "name": "TISSUE FOR AFB STAIN / ZN STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "Tissue",
+        "time": "AFTER FOUR DAYS"
     },
     {
-        "index": "482",
         "name": "Tissue For C/s",
-        "price": "1300"
+        "price": 1850,
+        "sample": "Tissue",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "483",
         "name": "Tissue for Mycobacterium Culture",
-        "price": "2600"
+        "price": 3760,
+        "sample": "CYSTIC FLUID",
+        "time": "AFTER 10 WEEKS"
     },
     {
-        "index": "484",
         "name": "TORCH PROFILE(IgG)",
-        "price": "4700"
+        "price": 6800,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "485",
         "name": "TORCH PROFILE(IgG,IgM)",
-        "price": "4700"
+        "price": 6800,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "486",
         "name": "TORCH PROFILE(IgM)",
-        "price": "4700"
+        "price": 6800,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "487",
-        "name": "TOTAL LIPIDS",
-        "price": "1400"
-    },
-    {
-        "index": "488",
         "name": "TOTAL PROTEIN",
-        "price": "550"
+        "price": 810,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "489",
         "name": "Total Testosterone",
-        "price": "1100"
+        "price": 1570,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "490",
         "name": "TOXOPLASMA IgG",
-        "price": "1000"
+        "price": 1430,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "491",
         "name": "TOXOPLASMA IgM",
-        "price": "1000"
+        "price": 1430,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "492",
         "name": "TPHA (Screening Test)",
-        "price": "1000"
+        "price": 1430,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "493",
         "name": "TRACHEAL SECRETION FOR  AFB STAIN / ZN STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "SECRATION",
+        "time": "SAME DAY"
     },
     {
-        "index": "494",
         "name": "Tracheal Secretion For  C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "SECRATION",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "495",
         "name": "TRACHEAL SECRETION FOR  GRAM STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "SECRATION",
+        "time": "SAME DAY"
     },
     {
-        "index": "496",
         "name": "TRANSFERRIN SATURATION",
-        "price": "900"
+        "price": 1240,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "497",
         "name": "TRIGLYCERIDES",
-        "price": "400"
+        "price": 570,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "498",
         "name": "TROPONIN-I",
-        "price": "1300"
+        "price": 1850,
+        "sample": "3cc EDTA BLOOD (CBC VIAL)",
+        "time": "SAME DAY"
     },
     {
-        "index": "499",
         "name": "TROPONIN-T  (QUANTITATIVE)",
-        "price": "1300"
+        "price": 1850,
+        "sample": "3cc EDTA BLOOD (CBC VIAL)",
+        "time": "SAME DAY"
     },
     {
-        "index": "500",
         "name": "TSH",
-        "price": "900"
+        "price": 1240,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "501",
         "name": "T-SPOT (Quantiferon TB Gold Plus)",
-        "price": "5400"
+        "price": 7840,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "NEXT DAY"
     },
     {
-        "index": "502",
         "name": "TYPHIDOT IgG (ELISA)",
-        "price": "1100"
+        "price": 1520,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "503",
         "name": "TYPHIDOT IgM (ELISA)",
-        "price": "1100"
+        "price": 1520,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "504",
-        "name": "TYPHIDOT TEST(IgG,IgM)Screening",
-        "price": "0"
-    },
-    {
-        "index": "505",
         "name": "UREA (24 HRS URINE)",
-        "price": "450"
+        "price": 620,
+        "sample": "24 Hrs Urine",
+        "time": "SAME DAY"
     },
     {
-        "index": "506",
         "name": "UREA (FLUID)",
-        "price": "450"
+        "price": 620,
+        "sample": "Fluid",
+        "time": "SAME DAY"
     },
     {
-        "index": "507",
         "name": "UREA (SERUM)",
-        "price": "450"
+        "price": 620,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "508",
         "name": "UREA (SPOT URINE)",
-        "price": "450"
+        "price": 620,
+        "sample": "Urine (Random/Spot)",
+        "time": "SAME DAY"
     },
     {
-        "index": "509",
         "name": "UREA / CREATININE RATIO",
-        "price": "0"
+        "price": 1230,
+        "sample": "spot Urine",
+        "time": "SAME DAY"
     },
     {
-        "index": "510",
         "name": "URETHRAL SWAB FOR C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "SWAB",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "511",
         "name": "URETHRAL SWAB FOR GRAM STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "SWAB",
+        "time": "SAME DAY"
     },
     {
-        "index": "512",
         "name": "URIC ACID (24 HRS URINE)",
-        "price": "450"
+        "price": 660,
+        "sample": "24 Hrs Urine",
+        "time": "SAME DAY"
     },
     {
-        "index": "513",
         "name": "URIC ACID (FLUID)",
-        "price": "450"
+        "price": 660,
+        "sample": "Fluid",
+        "time": "SAME DAY"
     },
     {
-        "index": "514",
         "name": "URIC ACID (SERUM)",
-        "price": "450"
+        "price": 660,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "515",
         "name": "URIC ACID (SPOT URINE)",
-        "price": "450"
+        "price": 660,
+        "sample": "Urine (Random/Spot)",
+        "time": "SAME DAY"
     },
     {
-        "index": "516",
         "name": "URIC ACID / CREATININE RATIO",
-        "price": "850"
+        "price": 1240,
+        "sample": "Urine (Random/Spot)",
+        "time": "SAME DAY"
     },
     {
-        "index": "517",
         "name": "Urine  For Cytology",
-        "price": "0"
+        "price": 1520,
+        "sample": "Urine (Random/Spot)",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "518",
         "name": "Urine C/E",
-        "price": "0"
+        "price": 380,
+        "sample": "Urine (Random/Spot)",
+        "time": "SAME DAY"
     },
     {
-        "index": "519",
         "name": "URINE FOR C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "Urine (Random/Spot)",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "520",
         "name": "URINE FOR C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "Urine (Random/Spot)",
+        "time": "AFTER 10 WEEKS"
     },
     {
-        "index": "521",
         "name": "Urine for Reducing Substance",
-        "price": "250"
+        "price": 330,
+        "sample": "Urine (Random/Spot)",
+        "time": "SAME DAY"
     },
     {
-        "index": "522",
         "name": "Urine For TLC",
-        "price": "300"
+        "price": 430,
+        "sample": "spot Urine",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "523",
         "name": "URINE SUGAR",
-        "price": "200"
+        "price": 280,
+        "sample": "Urine (Random/Spot)",
+        "time": "SAME DAY"
     },
     {
-        "index": "524",
         "name": "VALPORIC ACID (EPIVAL)",
-        "price": "1000"
+        "price": 1380,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "525",
         "name": "VDRL ELISA",
-        "price": "1000"
+        "price": 1430,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "526",
         "name": "VDRL/RPR",
-        "price": "1000"
+        "price": 1430,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "DAILY"
     },
     {
-        "index": "527",
         "name": "VITAMIN B12",
-        "price": "1300"
+        "price": 1810,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "528",
-        "name": "Vitamin D",
-        "price": "0"
-    },
-    {
-        "index": "529",
         "name": "Vitamin D3",
-        "price": "2000"
+        "price": 3040,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "530",
         "name": "Viterous Fluid for AFB Stain / ZN Stain",
-        "price": "300"
+        "price": 430,
+        "sample": "Vitreous Fluid",
+        "time": "SAME DAY"
     },
     {
-        "index": "531",
         "name": "Viterous Fluid for C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "NASAL SECRATION",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "532",
         "name": "Viterous Fluid for Gram Stain",
-        "price": "300"
+        "price": 430,
+        "sample": "Vitreous Fluid",
+        "time": "SAME DAY"
     },
     {
-        "index": "533",
         "name": "Vitrous Fluid For  C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "Vitreous Fluid",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "534",
         "name": "VMA (24 HRS URINE)",
-        "price": "1550"
+        "price": 2280,
+        "sample": "24 Hrs Urine",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "535",
         "name": "Von Willebrand Factor",
-        "price": "1400"
+        "price": 2050,
+        "sample": "Sodium Citrate Tube (PT Vial)",
+        "time": "AFTER TWO DAYS"
     },
     {
-        "index": "536",
         "name": "WATER For CULTURE",
-        "price": "1300"
+        "price": 1850,
+        "sample": "WATER",
+        "time": "AFTER ONE WEEK"
     },
     {
-        "index": "537",
         "name": "WBC Count (TLC)",
-        "price": "300"
+        "price": 430,
+        "sample": "3cc EDTA BLOOD (CBC VIAL)",
+        "time": "DAILY"
     },
     {
-        "index": "538",
         "name": "WBCs MORPHOLOGY",
-        "price": "300"
+        "price": 430,
+        "sample": "3cc EDTA BLOOD (CBC VIAL)",
+        "time": "SAME DAY"
     },
     {
-        "index": "539",
         "name": "WIDAL TEST",
-        "price": "1000"
+        "price": 1380,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "SAME DAY"
     },
     {
-        "index": "540",
         "name": "Wound Swab For  AFB C/S",
-        "price": "2600"
+        "price": 3750,
+        "sample": "Wound Swab",
+        "time": "AFTER 10 WEEKS"
     },
     {
-        "index": "541",
         "name": "Wound Swab For  AFB STAIN / ZN STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "Wound Swab",
+        "time": "SAME DAY"
     },
     {
-        "index": "542",
         "name": "Wound Swab For C/S",
-        "price": "1300"
+        "price": 1850,
+        "sample": "Wound Swab",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "543",
         "name": "Wound Swab For GRAM STAIN",
-        "price": "300"
+        "price": 430,
+        "sample": "Wound Swab",
+        "time": "SAME DAY"
     },
     {
-        "index": "544",
         "name": "ZINC LEVEL(SERUM)",
-        "price": "1850"
+        "price": 2710,
+        "sample": "3- 5cc Clotted Blood or Serum",
+        "time": "AFTER THREE DAYS"
     },
     {
-        "index": "545",
         "name": "ZINC LEVEL(Urine)",
-        "price": "1850"
+        "price": 2710,
+        "sample": "Urine (Random/Spot)",
+        "time": "AFTER THREE DAYS"
     }
-]
+];
