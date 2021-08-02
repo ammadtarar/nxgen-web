@@ -23,27 +23,39 @@
           </div>
         </div>
 
-        <div class="bullets">
-          <div :class="{ active: carouselIndex == 0 }"></div>
-          <div :class="{ active: carouselIndex == 1 }"></div>
-          <div :class="{ active: carouselIndex == 2 }"></div>
+        <div class="bullets-wrapper">
+          <div class="nav-btn" @click="goToLastCarousel">
+            <div class="triangle triangle-left"></div>
+          </div>
+          <div class="bullets">
+            <div :class="{ active: carouselIndex == 0 }"></div>
+            <div :class="{ active: carouselIndex == 1 }"></div>
+            <div :class="{ active: carouselIndex == 2 }"></div>
+          </div>
+          <div class="nav-btn" @click="goToNextCarousel">
+            <div class="triangle triangle-right"></div>
+          </div>
         </div>
       </div>
 
       <div :style="{ 'z-index': menuOpened ? 0 : 2 }" class="buttons-wrapper">
         <div class="button-wrapper" @click="showAppointment = true">
           <div class="button">
-            <img src="../assets/icons/ic_book.png" alt="Book Appointment" />
-            Book Appointment
+            <img src="../assets/icons/ic_book.png" alt="Home Sampling" />
+            Home Sampling
           </div>
         </div>
 
-        <div class="button-wrapper">
+        <a
+          class="button-wrapper"
+          href="//api.whatsapp.com/send?phone=923111555586"
+          style="color: black; text-decoration: none"
+        >
           <div class="button">
             <img src="../assets/icons/ic_whatsapp.png" alt="WhatsApp" />
             WhatsApp
           </div>
-        </div>
+        </a>
       </div>
     </div>
     <transition
@@ -122,6 +134,20 @@ export default {
     };
   },
   methods: {
+    goToNextCarousel() {
+      if (this.carouselIndex == 2) {
+        this.carouselIndex = 0;
+      } else {
+        this.carouselIndex = this.carouselIndex + 1;
+      }
+    },
+    goToLastCarousel() {
+      if (this.carouselIndex <= 0) {
+        this.carouselIndex = 2;
+      } else {
+        this.carouselIndex = this.carouselIndex - 1;
+      }
+    },
     onClickNavBt(e) {
       this.showLogin = e == "login";
       this.showRegister = e == "register";
@@ -200,35 +226,81 @@ export default {
       text-align: center;
     }
 
-    .bullets {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      background: rgba(255, 255, 255, 0.2);
-      padding: 1rem;
-      border-radius: 0.4rem;
+    .bullets-wrapper {
       position: absolute;
       left: 7%;
       bottom: 7%;
       transform: translateX(-50%);
       z-index: 2;
+      display: flex;
+      align-items: center;
 
-      div {
-        width: 1rem;
-        height: 1rem;
-        // border: 0.1rem solid var(--clr-ylw);
-        background: white;
-        border-radius: 50%;
+      .bullets {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.2);
+        padding: 1rem;
+        border-radius: 0.4rem;
 
-        &:nth-child(1),
-        &:nth-child(2) {
-          margin-right: 0.6rem;
+        div {
+          width: 1rem;
+          height: 1rem;
+          // border: 0.1rem solid var(--clr-ylw);
+          background: white;
+          opacity: 0.3;
+          border-radius: 50%;
+          transition: 0.5s all ease-in-out;
+
+          &:nth-child(1),
+          &:nth-child(2) {
+            margin-right: 0.6rem;
+          }
+        }
+
+        .active {
+          background: var(--clr-ylw);
+          opacity: 1;
         }
       }
 
-      .active {
-        background: var(--clr-ylw);
+      .nav-btn {
+        width: 2rem;
+        height: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .triangle {
+          width: 0;
+          height: 0;
+          border-top: 0.8rem solid transparent;
+          border-bottom: 0.8rem solid transparent;
+          transition: 0.35s all ease-in;
+
+          &:hover {
+            transform: scale(1.1) translateY(-0.1rem);
+          }
+        }
+
+        .triangle-left {
+          border-right: 1.2rem solid rgba(255, 255, 255, 0.4);
+
+          &:hover {
+            border-right-color: var(--clr-ylw);
+          }
+        }
+
+        .triangle-right {
+          border-left: 1.2rem solid rgba(255, 255, 255, 0.4);
+
+          &:hover {
+            border-left-color: var(--clr-ylw);
+          }
+        }
       }
     }
   }
@@ -287,7 +359,7 @@ export default {
   @media screen and (max-width: 690px) {
     .buttons-wrapper {
       flex-direction: column;
-      bottom: 1rem;
+      bottom: -1rem;
 
       .button-wrapper {
         &:nth-child(2) {
@@ -303,7 +375,7 @@ export default {
         font-size: 4rem;
       }
 
-      .bullets {
+      .bullets-wrapper {
         left: 50%;
         bottom: 2%;
       }

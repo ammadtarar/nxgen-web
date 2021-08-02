@@ -59,7 +59,16 @@
     </div>
 
     <div class="copyright">
-      © 2021 NxGen Labs Private Limited. All Rights Reservered
+      © 2021 NxGen Labs Private Limited. All Rights Reservered <br />
+    </div>
+
+    <div class="powered">
+      Powered By
+      <a
+        href="https://waleedtech.com.pk/"
+        style="color: var(--clr-ylw); font-family: 'P-600', sans-serif"
+        >WaleedTech (Pvt) Ltd</a
+      >
     </div>
   </section>
 </template>
@@ -428,5 +437,16 @@ export default {
   padding: 1rem;
   text-align: center;
   margin-top: 4rem;
+}
+
+.powered {
+  font-family: "P-500", sans-serif;
+  width: 100vw;
+  background: black;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 0.2rem solid var(--clr-ylw);
+  text-decoration: none;
 }
 </style>

@@ -54,7 +54,7 @@
           />
           <span class="title">{{ detailItem.name }}</span>
           <div class="tests">
-            <span class="title">Tests includes in the packages :</span>
+            <span class="title">Tests included in the packages :</span>
             <div class="package">
               <span v-for="(item, index) in detailItem.items" :key="index">
                 {{ item }}
@@ -237,7 +237,7 @@ export default {
   }
 
   .grid {
-    width: 68%;
+    width: 73%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
@@ -342,7 +342,7 @@ export default {
   }
 
   .wrapper {
-    width: 30%;
+    width: 25%;
 
     .search-box {
       width: 100%;

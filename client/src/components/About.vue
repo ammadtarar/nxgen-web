@@ -7,14 +7,28 @@
         <span class="section-title">About Us</span>
       </div>
       <p>
-        With the growing population of the country and the emergence of chronic
+        <!-- With the growing population of the country and the emergence of chronic
         diseases, we feel it is important for community to have access to
         high-quality, low-cost diagnostic services. To achieve this goal, NxGen
         Labs was established in February 2021. <br /><br />We have a dedicated
         team at NxGen Lab that involves qualified laboratory professionals who
         are skilled in their fields and focused on delivering quality service.
         The lab applies strict quality control checks and quality assurance
-        activities.
+        activities. -->
+
+        <a href="https://waleedtech.com.pk/">Waleed Tech</a> has the proud
+        privilege of introducing NxGen human testing lab in 2021 having a rich
+        scientific background and experience. We have state of the art equipment
+        installed for error free testing, a humble contribution to serve a less
+        privileged segment of the community. To alleviate their suffering and
+        thus taking a step towards human health and community.<br /><br />
+        With the growing population of the country and the emergence of chronic
+        diseases, we feel it is important for the community to have access to
+        high-quality, low-cost diagnostic services. <br /><br />
+        We have a dedicated team at NxGen Lab that involves qualified laboratory
+        professionals who are skilled in their fields and focused on delivering
+        quality service. The lab applies strict quality control checks and
+        quality assurance activities.
       </p>
 
       <span class="section-title vision">Our Vision</span>
@@ -106,6 +120,11 @@ export default {
     font-family: "P-300", sans-serif;
     color: black;
     z-index: 2;
+
+    a {
+      color: orange;
+      font-family: "P-500", sans-serif;
+    }
   }
 
   .vision {
