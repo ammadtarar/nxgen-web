@@ -88,10 +88,42 @@ export default {
       );
       // TODO - INPLEMENT LOGIN API
 
-      setTimeout(() => {
-        this.processing = false;
-        this.$router.push("/dashboard");
-      }, 3000);
+      this.$HTTP
+        .post(this.$URLS.AUTH.REGISTER, {
+          FullName: fullname,
+          Usr: phone,
+          Pwd: password,
+          Email: email,
+          phone: phone,
+          VerifyCode: "",
+          Verified: "",
+          Gender: "Male",
+          Addres: address,
+          City: city,
+        })
+        .then((res) => {
+          this.processing = false;
+          this.$Notifications.showNotification(
+            "success",
+            "Congratulations, your account has been created"
+          );
+          this.$emit("onSuccess", res.data);
+          console.log("register res");
+          console.log(res.data);
+          let data = JSON.parse(JSON.stringify(res.data));
+          console.log("data");
+          console.log(data);
+        })
+        .catch((err) => {
+          this.processing = false;
+          console.log("register err");
+          console.log(err);
+        });
+
+      // setTimeout(() => {
+      //   this.processing = false;
+      //   this.$router.push("/dashboard");
+      // }, 3000);
     },
   },
 };

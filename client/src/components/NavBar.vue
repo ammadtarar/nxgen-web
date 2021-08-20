@@ -45,7 +45,7 @@
       >
       <div v-if="!isDashboard" class="spacer-mobile"></div>
       <a
-        v-if="!isDashboard"
+        v-if="!isDashboard && !isLoggedIn"
         id="login"
         @click="
           onClick('login');
@@ -55,13 +55,23 @@
       >
       <div v-if="!isDashboard" class="spacer"></div>
       <a
-        v-if="!isDashboard"
+        v-if="!isDashboard && !isLoggedIn"
         id="register"
         @click="
           onClick('register');
           menuOpened = false;
         "
         >Register</a
+      >
+
+      <a
+        v-if="!isDashboard && isLoggedIn"
+        id="login"
+        @click="
+          onClick('account');
+          menuOpened = false;
+        "
+        >Account</a
       >
 
       <a
@@ -101,14 +111,18 @@ export default {
       menuOpened: true,
       isDashboard: false,
       isRatesList: false,
+      isLoggedIn: false,
     };
   },
   methods: {
     onClick(e) {
       if (e === "logout") {
+        localStorage.clear();
         this.$router.push("/");
-      } else if ("packages") {
+      } else if (e === "packages") {
         this.$router.push("/rs");
+      } else if (e === "account") {
+        this.$router.push("/dashboard");
       }
       this.$emit("onClickNavBt", e);
     },
@@ -125,6 +139,9 @@ export default {
     window.addEventListener("resize", this.windowResized);
     this.isDashboard = this.$parent.$options.name === "Dashboard";
     this.isRatesList = this.$parent.$options.name === "RatesPackages";
+    let token = localStorage.getItem("token");
+    this.isLoggedIn = token && token !== "";
+    console.log("logged in", this.isLoggedIn);
   },
 };
 </script>
@@ -253,8 +270,8 @@ export default {
 
     .actions-mobile-opened {
       display: block;
-      position: absolute;
-      z-index: 4 !important;
+      position: fixed;
+      z-index: 40 !important;
       width: 100%;
       height: calc(100vh - 8rem);
       right: 0;
@@ -266,7 +283,7 @@ export default {
     }
 
     .burger-mobile-open {
-      z-index: 3 !important;
+      z-index: 40 !important;
 
       span {
         background: black !important;

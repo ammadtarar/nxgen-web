@@ -1,5 +1,17 @@
 <template>
-  <router-view />
+  <div class="app">
+    <router-view />
+    <div class="notification" id="notificationBar">
+      <p id="notificationMsg"></p>
+    </div>
+
+    <div class="loading-container" id="loading">
+      <div class="card">
+        <div class="spinner"></div>
+        Loading ...
+      </div>
+    </div>
+  </div>
 </template>
 
 <style lang="scss">
@@ -87,5 +99,73 @@ html {
 /* Optional: show position indicator in red */
 ::-webkit-scrollbar-thumb {
   background: transparent;
+}
+
+.notification {
+  background: rgb(50, 172, 50);
+  position: absolute;
+  bottom: 0%;
+  right: -200%;
+  max-width: calc(100vw - 4rem);
+  max-height: calc(100vh - 4rem);
+  z-index: 1000;
+  /* padding: 1.4rem 1.8rem; */
+  border-radius: 0.6rem;
+  overflow-y: scroll;
+  box-shadow: var(--shadow);
+  transition: all 1s ease-in;
+
+  p {
+    color: white;
+    font-family: "P-400", sans-serif;
+    font-size: 1.3rem;
+  }
+}
+
+.loading-container {
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(128, 128, 128, 0.385);
+  z-index: 60;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .card {
+    background: white;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-family: "P-500", sans-serif;
+    border-radius: 0.6rem;
+    padding: 3rem 4rem;
+
+    .spinner {
+      border-top: 0.3rem solid var(--clr-ylw);
+      border-left: 0.3rem solid var(--clr-ylw);
+      border-right: 0.3rem solid var(--clr-ylw);
+      border-bottom: 0.3rem solid transparent;
+      width: 4rem;
+      height: 4rem;
+      border-radius: 50%;
+      animation: spinner 1s linear infinite;
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+.no-data {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  font-size: 1.2rem;
 }
 </style>

@@ -33,20 +33,20 @@
           </tr>
         </thead>
         <tbody>
-          <tr v-bind:key="index + 1" v-for="(item, index) in reports">
+          <tr v-bind:key="index + 1" v-for="(item, index) in rates">
             <td class="index">
               {{ index + 1 || "--" }}
             </td>
             <td>
-              {{ item.name || "--" }}
+              {{ item.S_Name || "--" }}
             </td>
             <td>
-              {{ item.sample || "--" }}
+              {{ "--" }}
             </td>
             <td style="text-transform: capitalize">
-              {{ item.time.toLowerCase() || "--" }}
+              {{ item.Report || "--" }}
             </td>
-            <td>Rs. {{ item.price || "--" }}</td>
+            <td>Rs. {{ item.S_charges || "--" }}</td>
           </tr>
         </tbody>
       </table>
@@ -55,12 +55,13 @@
 </template>
 
 <script>
-const Rates = require("../data/ratelist.js");
+// const Rates = require("../data/ratelist.js");
 export default {
   name: "RateList",
   data() {
     return {
-      reports: [],
+      allRates: [],
+      rates: [],
       search: "",
     };
   },
@@ -72,17 +73,33 @@ export default {
     onValueUpdated() {
       console.log("Hello");
       if (!this.search || this.search.length <= 0) {
-        this.reports = Rates;
+        this.rates = Rates;
         return;
       }
-      this.reports = Rates.filter((item) => {
+      this.rates = this.allRates.filter((item) => {
         console.log("item");
-        return item.name.toLowerCase().includes(this.search.toLowerCase());
+        return item.S_Name.toLowerCase().includes(this.search.toLowerCase());
       });
+    },
+    getRatesList() {
+      this.$HTTP
+        .get(this.$URLS.RATE_LIST)
+        .then((res) => {
+          console.log("rates list");
+          let jsonData = JSON.parse(res.data);
+          this.allRates = jsonData.data;
+          this.rates = this.allRates;
+          console.log(jsonData);
+        })
+        .catch((err) => {
+          console.log("err");
+          console.log(err);
+        });
     },
   },
   mounted() {
-    this.reports = Rates;
+    // this.rates = Rates;
+    this.getRatesList();
   },
 };
 </script>

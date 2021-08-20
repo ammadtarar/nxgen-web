@@ -68,7 +68,11 @@
       enter-active-class="animate__animated animate__zoomIn"
       leave-active-class="animate__animated animate__zoomOut"
     >
-      <register v-if="showRegister" @onCancel="showRegister = false" />
+      <register
+        v-if="showRegister"
+        @onCancel="showRegister = false"
+        @onSuccess="showRegister = false"
+      />
     </transition>
 
     <transition

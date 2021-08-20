@@ -101,6 +101,18 @@ export default {
         this.packages = category.packages;
       }
     },
+    getPackages() {
+      this.$HTTP
+        .get(this.$URLS.PACKAGES_LIST)
+        .then((res) => {
+          let data = JSON.parse(res.data);
+          console.log(data);
+        })
+        .catch((err) => {
+          console.log("err");
+          console.log(err);
+        });
+    },
     isMobileDevice() {
       this.isMobile = screen.width <= 690;
     },
@@ -109,6 +121,7 @@ export default {
     },
   },
   mounted() {
+    this.getPackages();
     this.reports = Packages;
     this.onClickCategory(this.reports[0]);
     this.isMobileDevice();
